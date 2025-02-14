@@ -1,0 +1,249 @@
+.projects {
+  padding: 100px 0;
+  background-color: #FFFFFF;
+}
+
+.projects__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: var(--main-color);
+  padding-bottom: 16px;
+}
+
+.projects__paragraph {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  color: var(--main-color);
+  padding-bottom: 42px;
+}
+
+/* Контейнер слайдера */
+.projects__slider {
+  position: relative;
+}
+
+/* Обертка Swiper */
+.swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Карточка */
+.projects__card {
+  position: relative;
+  width: 100%;
+  max-width: 373px;
+  height: 478px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.projects__card img {
+  width: 100%;
+  height: 478px;
+  object-fit: cover;
+}
+
+.projects__card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  border-radius: 20px;
+  padding: 0 24px 44px;
+  background: linear-gradient(180.07deg, rgba(217, 217, 217, 0.4) 0.06%, rgba(35, 37, 54, 0.4) 72.88%);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  visibility: visible;
+}
+
+
+
+.content-info {
+  text-align: left;
+
+}
+
+.projects__card-title {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.projects__card-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.projects__card-button {
+  display: flex;
+  align-items: center;
+}
+
+.projects__card-arrow-button {
+  width: 39px;  /* Увеличил размер кнопки, чтобы форма была ровнее */
+  height: 39px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Убираем лишние отступы */
+}
+
+.projects__card-arrow-button img {
+  width: 50%; /* Ограничиваем размер изображения */
+  height: 50%;
+  object-fit: contain; /* Подгоняем изображение, не искажая */
+}
+
+
+
+
+/* Настройки стрелок */
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next::after, 
+.swiper-button-prev::after {
+  color: #FFFFFF;
+}
+
+
+
+
+/* Настройка стрелки "Вправо" */
+.swiper-button-next {
+    right: -60px; /* Расстояние от карточек */
+}
+
+/* Настройка стрелки "Влево" */
+.swiper-button-prev {
+    left: -60px;
+}
+
+
+
+
+/*  Изменение карточки */
+
+.projects__card-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  padding: 40px 33px 44px 33px;
+  background: rgba(0, 0, 0, 0.6); /* Прозрачное черное затемнение */
+  opacity: 0; /* Изначально скрыто */
+  visibility: hidden; /* Изначально скрыто */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавное появление */
+}
+
+.projects__card-hidden.active {
+  opacity: 1; /* Показываем скрытый контент */
+  visibility: visible; /* Показываем скрытый контент */
+}
+
+.projects__card-content.active {
+  opacity: 0; /* Скрываем основной контент */
+  visibility: hidden;
+}
+
+
+
+.projects__card-hidden-title {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+
+.projects__card-hidden-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.projects__card-hidden-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.projects__card-hidden-number {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.projects__card-hidden-number-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.projects__card-hidden-number-value {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.projects__card-hidden .projects__card-button {
+  position: absolute;
+  bottom: 44px;  /* 57px снизу */
+  right: 24px;   /* 24px справа */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 1299px) {
+  .projects__card {
+    max-width: 320px;
+    height: 380px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .projects__slider {
+    max-width: 320px;
+  }
+}
+
+
+
+

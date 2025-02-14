@@ -1,0 +1,53 @@
+:root {
+    --main-color: #232536;
+    --accent: #FFD3AF;
+}
+
+body {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+  @media (max-width: 1299px) {
+    .container {
+        max-width: 1100px;
+        padding: 0 19px;
+    }
+  }
+
+
+  @media (max-width: 1100px) {
+    .container {
+        max-width: 900px;
+        padding: 0 19px;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .container {
+        max-width: 320px;
+        padding: 0 19px;
+    }
+  }
+
+  

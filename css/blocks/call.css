@@ -1,0 +1,62 @@
+/* Кнопка звонка */
+.callback-bt {
+    background: var(--accent); /* ваш фон */
+    border: 2px solid var(--accent); /* граница кнопки */
+    border-radius: 50%; /* округлая форма */
+    height: 68px;
+    width: 68px;
+    position: fixed;
+    right: 8%;
+    bottom: 5%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(56, 163, 253, 0.4); /* тень с улучшенным эффектом */
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+    animation: pulse 1.5s infinite, waveShadow 2s infinite; /* анимации пульсации и волны для тени */
+}
+
+.callback-bt.show {
+    opacity: 1; /* Полная видимость */
+    transform: translateY(0); /* Нормальное положение */
+}
+
+/* Центрирование изображения в кнопке */
+.callback-bt img {
+    width: 35px; /* размер изображения */
+    height: 35px;
+    object-fit: contain;
+}
+
+/* Анимация пульсации */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* увеличение кнопки на 10% */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes waveShadow {
+    0% {
+        box-shadow: 0 8px 15px rgba(225, 135, 61, 0.4), 0 0 0 0 rgba(225, 167, 109, 0.2);
+    }
+    40% {
+        box-shadow: 0 8px 15px rgba(225, 135, 61, 0.4), 0 0 15px 10px rgba(225, 167, 109, 0.2);
+    }
+    80% {
+        box-shadow: 0 8px 15px rgba(225, 135, 61, 0.4), 0 0 30px 20px rgba(225, 167, 109, 0.1);
+    }
+    100% {
+        box-shadow: 0 8px 15px rgba(225, 135, 61, 0.4), 0 0 0 0 rgba(225, 167, 109, 0.2);
+    }
+}
+
