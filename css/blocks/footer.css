@@ -18,7 +18,7 @@
 
 .footer__logo-img {
     width: 65px;
-    height: 65px;
+    height: 65px;   
 }
 
 
@@ -68,3 +68,52 @@
 }
 
 
+@media (max-width: 900px) {
+    .footer {
+        padding: 64px 0; 
+    }
+    
+    .footer__logo-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__logo {
+        gap: 8px;
+        font-size: 16px;
+    }
+
+    .footer__menu {
+        gap: 30px;
+        font-size: 14px;
+    }
+
+    .footer__divider {
+        margin: 40px 0;
+    }
+
+    .footer__information {
+        padding-top: 0px;
+    }
+    
+    .footer__information-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .footer__address p, .footer__contacts p {
+        font-size: 16px;
+    }
+    
+    .footer__socials-icon {
+        width: 45px;
+        height: 48px;
+    }
+}

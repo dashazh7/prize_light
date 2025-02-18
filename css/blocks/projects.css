@@ -267,20 +267,38 @@
 
   .swiper-button-next {
     right: 115px !important;
-}
+  }
 
-.swiper-button-prev {
-  left: 10px !important;
-}
+  .swiper-button-prev {
+    left: 10px !important;
+  }
 
-.swiper__slide {
-  transform: none;
-}
-
-
-
-
+  .swiper__slide {
+    transform: none;
+  }
 }
 
 
+@media (max-width: 900px) {
+  .projects {
+    padding: 64px 0;
+  }
 
+  .projects__title {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+  
+  .projects__paragraph {
+    font-size: 40px;
+    padding-bottom: 42px;
+  }
+
+  .projects__card {
+    max-width: 320px;
+  }
+
+  .swiper-button-next {
+    right: 350px !important;
+  }
+}

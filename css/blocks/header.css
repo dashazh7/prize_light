@@ -72,3 +72,33 @@
     }
 }
 
+@media (max-width: 900px) {
+    .header {
+        padding-bottom: 36px;
+    }
+
+    .header__logo-img {
+        width: 45px;
+        height: 48px;
+    }
+
+    .header__navigation-wrapper {
+        gap: 36px;
+    }
+
+    .header__menu {
+        gap: 30px; 
+        font-size: 12px;
+    }
+
+    .header__phone {
+        font-size: 14px;
+    }
+    
+    .header__phone-icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+}
+

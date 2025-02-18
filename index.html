@@ -384,11 +384,13 @@
                 <div class="request__container">
                     <div class="request__content">
                         <h1 class="request__title">Оставьте заявку прямо на сайте</h1>
-                        <form name="submit-to-google-sheet" class="request__form">
-                            <input name="tel" class="request__form-input request__form-input--tel" type="tel" placeholder="Введите номер телефона">
-                            <input name="comment" class="request__form-input request__form-input--comment" type="text" placeholder="Оставьте комментарий">
-                            <button class="request__form-button" type="submit">Оставить заявку</button>
-                        </form>
+                        <form name="submit-to-google-sheet" class="request__form" id="request-form" method="POST">
+    <input name="tel" class="request__form-input request__form-input--tel" type="tel" placeholder="Введите номер телефона">
+    <input name="comment" class="request__form-input request__form-input--comment" type="text" placeholder="Оставьте комментарий">
+    <button class="request__form-button" type="submit">Оставить заявку</button>
+</form>
+                        
+                        
                     </div>
                     <div class="request__images">
                         <div class="request__images-column">
