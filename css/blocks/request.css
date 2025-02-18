@@ -38,14 +38,7 @@
 	border-radius: 20px;
 }
 
-.request__form-input--tel::placeholder {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #C6C6C6;
-}
-
-.request__form-input--comment::placeholder {
+.request__form-input--comment::placeholder, .request__form-input--tel::placeholder {
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
@@ -108,7 +101,19 @@
         gap: 20px;
     }
 
-    .request__title {
+    .request__images {
+        display: none;
+    }
+
+    .request__images-adaptation {
+        display: block;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .request__container {
+        max-width: 900px;
     }
 
     .request__images {
@@ -116,6 +121,34 @@
     }
 
     .request__images-adaptation {
-        display: block;
+        display: none;
+    }
+
+    .request__title {
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 24px;
+    }
+
+    .request__form {
+        gap: 16px;
+    }
+    
+    .request__form-input {
+        font-size: 16px;
+        padding: 16px 8px;
+    }
+    
+    .request__form-input--tel::placeholder {
+        font-size: 16px;
+    }
+    
+    .request__form-input--comment::placeholder {
+        font-size: 16px;
+    }
+    
+    .request__form-button {
+        font-size: 16px;
+        padding: 20px 110px;
     }
 }

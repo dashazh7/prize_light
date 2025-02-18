@@ -118,6 +118,10 @@
 
 
 @media (max-width: 1299px) {
+    .about-us {
+        padding-bottom: 40px;
+    }
+
     .about-us__info{
         max-width: 500px;
     }
@@ -136,11 +140,15 @@
 
     .about-us__clients {
         max-width: 1100px;
-;
+
     }
 }
 
 @media (max-width: 1100px) {
+    .about-us {
+        padding-bottom: 30px;
+    }
+
     .about-us__info{
         max-width: 400px;
     }
