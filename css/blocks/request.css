@@ -160,6 +160,7 @@
 
     .request__container {
         max-width: 700px;
+        padding: 56px 100px;
     }
 
     .request__title {
