@@ -20,12 +20,10 @@
   padding-bottom: 42px;
 }
 
-/* Контейнер слайдера */
 .projects__slider {
   position: relative;
 }
 
-/* Обертка Swiper */
 .swiper {
   position: relative;
   overflow: hidden;
@@ -66,7 +64,6 @@
 
 .content-info {
   text-align: left;
-
 }
 
 .projects__card-title {
@@ -84,7 +81,7 @@
 }
 
 .projects__card-arrow-button {
-  width: 39px;  /* Увеличил размер кнопки, чтобы форма была ровнее */
+  width: 39px;  
   height: 39px;
   background-color: var(--accent);
   border-radius: 50%;
@@ -92,19 +89,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0; /* Убираем лишние отступы */
+  padding: 0; 
 }
 
 .projects__card-arrow-button img {
-  width: 50%; /* Ограничиваем размер изображения */
-  height: 50%;
-  object-fit: contain; /* Подгоняем изображение, не искажая */
+  width: 50%; 
+  max-width: 24px; 
+  height: auto;
+  max-height: 24px; 
+  object-fit: contain; 
 }
 
-
-
-
-/* Настройки стрелок */
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
@@ -118,23 +113,16 @@
 }
 
 
-
-
-/* Настройка стрелки "Вправо" */
 .swiper-button-next {
     right: 10px !important;
 }
 
-/* Настройка стрелки "Влево" */
 .swiper-button-prev {
     left: 10px !important;
 }
 
 
-
-
 /*  Изменение карточки */
-
 .projects__card-hidden {
   position: absolute;
   top: 0;
@@ -147,23 +135,21 @@
   align-items: flex-start;
   border-radius: 20px;
   padding: 40px 33px 44px 33px;
-  background: rgba(0, 0, 0, 0.6); /* Прозрачное черное затемнение */
-  opacity: 0; /* Изначально скрыто */
-  visibility: hidden; /* Изначально скрыто */
-  transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавное появление */
+  background: rgba(0, 0, 0, 0.6); 
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .projects__card-hidden.active {
-  opacity: 1; /* Показываем скрытый контент */
-  visibility: visible; /* Показываем скрытый контент */
+  opacity: 1; 
+  visibility: visible; 
 }
 
 .projects__card-content.active {
-  opacity: 0; /* Скрываем основной контент */
+  opacity: 0; 
   visibility: hidden;
 }
-
-
 
 .projects__card-hidden-title {
   font-size: 30px;
@@ -219,10 +205,13 @@
 
 
 
-
 @media (max-width: 1299px) {
   .projects__card {
     max-width: 320px;
+    height: 380px;
+  }
+
+  .projects__card img {
     height: 380px;
   }
 
@@ -231,6 +220,11 @@
     padding: 0 20px 34px;
   }
 
+ 
+  .projects__card-arrow-button img {
+    height: 39px;
+  }
+  
   .projects__card-hidden {
     padding: 24px;
   }
@@ -256,12 +250,21 @@
     bottom: 34px;  
     right: 20px;  
   }
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 32px !important; 
+  }
+
 }
 
 
 @media (max-width: 1100px) {
   .projects__card {
     max-width: 320px;
+    height: 400px;
+  }
+
+  .projects__card img {
     height: 400px;
   }
 
@@ -300,5 +303,135 @@
 
   .swiper-button-next {
     right: 350px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .projects__paragraph {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 32px;
+  }
+
+  .projects__card {
+    max-width: 260px;
+    height: 315px;
+  }
+
+  .projects__card img {
+    height: 315px;
+  }
+
+  .projects__card-content {
+    padding: 0 16px 20px;
+  }
+
+  .projects__card-title {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 8px;
+  }
+  
+  .projects__card-paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .projects__card-button {
+    display: none;
+  }
+
+  .projects__card-hidden-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .projects__card-hidden-numbers {
+    gap: 4px;
+  }
+  
+  .projects__card-hidden-number {
+    gap: 8px;
+  }
+
+  .projects__card-hidden-number-text {
+    font-size: 14px;
+  }
+  
+  .projects__card-hidden-number-value {
+    font-size: 16px;
+  }
+
+  .projects__card-hidden .projects__card-button {
+    display: none;
+  }
+
+  .projects__card-hidden-text {
+    font-size: 12px;
+    max-width: 250px;
+  }
+
+  .swiper-button-next {
+    right: 210px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .projects {
+    padding: 40px 0;
+  }
+
+  .projects__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .projects__paragraph {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+
+  .projects__card {
+    max-width: 238px;
+    height: 295px;
+    margin: 0 auto;
+  }
+
+  .projects__card img {
+    height: 295px;
+  }
+
+  .projects__card-hidden-title {
+    font-size: 20px;
+  }
+
+  .projects__card-hidden-numbers {
+    gap: 0px;
+  }
+
+  .projects__card-hidden-number-text {
+    font-size: 12px;
+  }
+
+  .projects__card-hidden-number-value {
+    font-size: 14px;
+  }
+
+  .projects__card-hidden-text {
+    font-size: 10px;
+    max-width: 238px;
+  }
+
+  .swiper-button-next {
+    right: 25px !important;
+  } 
+
+  .swiper-button-prev {
+    left: 25px !important;
+  } 
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 24px !important; 
   }
 }
