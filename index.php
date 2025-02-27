@@ -16,11 +16,11 @@
             <nav class="header__navigation">
                 <div class="header__navigation-wrapper">
                     <a class="header__logo" href="#!">
-                        <img class="header__logo-img" src="./images/Logo.svg" alt="Logotype">
+                        <img class="header__logo-img" src="./images/Logo.svg" alt="Логотип">
                     </a>
 
                     <a class="header__logo-hidden">
-                        <img class="header__logo-img" src="./images/logo_black.svg" alt="Logotype">
+                        <img class="header__logo-img" src="./images/logo_black.svg" alt="Логотип">
                         ООО "ПРИЗ"
                     </a>
     
@@ -387,15 +387,15 @@
                             <input name="tel" class="request__form-input request__form-input--tel" type="tel"
                                 placeholder="Введите номер телефона" value="<?= $_SESSION['old_data']['tel'] ?? '' ?>" autocomplete="off">
                             <?php if (isset($_SESSION['errors']['tel'])) { ?>
-                                <p class="error"><?= $_SESSION['errors']['tel']; ?></p>
+                                <p class="validate_error"><?= $_SESSION['errors']['tel']; ?></p>
                             <?php } ?>
                             <input name="comment" class="request__form-input request__form-input--comment" type="text"
                                 placeholder="Оставьте комментарий" value="<?= $_SESSION['old_data']['comment'] ?? '' ?>" autocomplete="off">
                             <?php if (isset($_SESSION['errors']['comment'])) { ?>
-                                <p class="error"><?= $_SESSION['errors']['comment']; ?></p>
+                                <p class="validate_error"><?= $_SESSION['errors']['comment']; ?></p>
                             <?php } ?>
                             <button class="request__form-button" type="submit">Оставить заявку</button>
-                        </form>
+                            </form>
                     </div>
                     <div class="request__images">
                         <div class="request__images-column">
@@ -413,6 +413,8 @@
             </div>        
         </section>
     </main>
+
+    
 
     <footer class="footer">
         <div class="container">
@@ -438,7 +440,7 @@
                     </div>
                     <div class="footer__contacts">
                         <p>Телефон <a href="tel:+79526891244">+79526891244</a></p>
-                        <p><a href="mainto:example@yandex.ru">example@yandex.ru</a></p>
+                        <p><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
                     </div>
                 </div>
 
@@ -474,6 +476,7 @@
     <script src="./js/swiperSlider.js"></script>
     <script src="./js/toggleCallbackButton.js"></script>
     <script src="./js/modalWindow.js"></script>
+    <script src="./js/phoneNumberFormat.js"></script>
 
 </body>
 </html>

@@ -11,6 +11,8 @@
         }
 
         public function sendMessage($phone, $comment) {
+            $phone = str_replace("+7", "8", $phone);
+            
             $message = "*Новая заявка!*\n\n";
             $message .= "*Телефон:* " . $phone . "\n";
             $message .= "*Комментарий:* " . $comment;

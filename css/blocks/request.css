@@ -93,10 +93,9 @@
     display: none;
 }
 
-.error {
+.validate_error {
     margin-top: -15px;
 }
-
 
 
 @media (max-width: 1299px) {
@@ -155,6 +154,11 @@
         font-size: 16px;
         padding: 20px 110px;
     }
+
+    .validate_error {
+        margin-top: -10px;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -204,8 +208,10 @@
         padding: 20px 118px;
     }
 
-    .error {
-       color: var(--main-color);
+    .validate_error {
+        margin-top: -15px;
+        color: #D53032;
+        font-weight: 500;
     }
 }
 
@@ -240,5 +246,11 @@
         width: 290px;
         font-size: 16px;
         padding: 14px 70px;
+    }
+    
+    .validate_error {
+        margin-top: -10px;
+        font-size: 12px;
+        line-height: 12px;
     }
 }
