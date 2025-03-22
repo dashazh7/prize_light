@@ -6,7 +6,7 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 3px;
-    color: #FFFFFF;
+    color: var(--text-color);
     font-weight: 500;
     padding-bottom: 16px;
 }
@@ -14,7 +14,7 @@
 .advantages__paragraph {
     font-size: 48px;
     line-height: 58px;
-    color: #FFFFFF;
+    color: var(--text-color);
     font-weight: 600;
     padding-bottom: 66px;
 }
@@ -36,8 +36,7 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
-    color: #FFFFFF;
-}
+    color: var(--text-color);}
 
 .advantages__item-icon {
     width: 113px;

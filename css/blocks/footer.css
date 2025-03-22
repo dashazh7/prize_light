@@ -1,5 +1,6 @@
 .footer {
     padding: 100px 0; 
+    background-color: var(--accent);
 }
 
 .footer__navigation {
@@ -23,7 +24,7 @@
 }
 
 .footer__divider {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     opacity: 30%;
     margin: 56px 0;
 }

@@ -1,13 +1,14 @@
 :root {
-    --main-color: #232536;
-    --accent: #FFD3AF;
+    --main-color: #EEF3FA;
+    --accent: #2A94E2;
+    --text-color: #000000;
 }
 
 body {
     background-color: var(--main-color);
-    color: #FFFFFF;
+    color: #000000;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .container {

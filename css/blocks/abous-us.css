@@ -5,7 +5,7 @@
 .about-us__content {
     display: flex;
     justify-content: space-between;
-    gap: 119px; 
+    gap: 167px; 
 }
 
 .about-us__info {
@@ -13,21 +13,18 @@
 }
 
 .about-us__title {
-    font-size: 66px;
+    font-size: 55px;
     font-weight: 600;
-    color: #FFFFFF;
     line-height: 120%;
     letter-spacing: -3px;
-    padding-bottom: 16px;
+    padding-bottom: 35px;
 }
 
 .about-us__paragraph {
     font-size: 20px;
-    font-weight: 300;
-    color: #FFFFFF;
     opacity: 60%;
     line-height: 120%;
-    padding-bottom: 37px;
+    padding-bottom: 45px;
 }
 
 .about-us__image {
@@ -36,80 +33,62 @@
 }
 
 .about-us__statistics {
-    position: relative;
-    padding-left: 25px;
-    padding-top: 17px;
     display: flex;
-    gap: 34px;
-    max-width: 600px;
+    gap: 19px;
 }
 
-.about-us__statistics::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 44px; 
-    height: 44px; 
-    border-top: 4px solid var(--accent);
-    border-left: 4px solid var(--accent);
+.about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+    border: 1px solid var(--accent);
+    border-radius: 20px;
+    padding: 16px 29px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+
 }
 
 .about-us__stat-value {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 46px;
-    color: #FFFFFF;
+    color: var(--accent);
     font-weight: 600;
 }
 
 .about-us__stat-label {
     font-size: 16px;
     line-height: 18.4px;
-    color: #FFFFFF;
-    opacity: 60%;
+    color: var(--accent);
     font-weight: 500;
-}
-
-.about-us__stat-item1 {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    max-width: 83px;
-}
-
-.about-us__stat-item2 {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    max-width: 165px;
-}
-
-.about-us__stat-item3 {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    max-width: 218px;
 }
 
 .about-us__clients {
     max-width: 1256px;
     display: flex;
     align-items: center;
-    gap: 48px;
-    margin-top: 34px;
+    gap: 100px;
+    margin-top: 50px;
 }
 
 .about-us__clients-title {
     font-size: 20px;
-    color: #FFFFFF;
+    color: var(--accent);
     font-weight: 500;
     line-height: 28px;
+    width: 157px;
 }
 
 .about-us__clients-logos {
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 32px;
+}
+
+.about-us__clients-logos img {
+    width: 180px;
+    height: 100px;
 }
 
 .about-us__button {

@@ -16,7 +16,7 @@
 }
 
 .request__title {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 40px;
     line-height: 58px;
     font-weight: 600;
@@ -34,7 +34,7 @@
     width: 412px;
 	font-size: 20px;
 	padding: 20px 12px;
-	border: 1px solid #FFFFFF;
+	border: 1px solid #9C9C9C;
 	border-radius: 20px;
 }
 
@@ -42,7 +42,7 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
-    color: #C6C6C6;
+    color: #979797;
 }
 
 .request__form-button {
@@ -50,7 +50,7 @@
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
-    color: #232536;
+    color: #FFFFFF;
     background-color: var(--accent);
 	padding: 25px 118px;
     border: none;

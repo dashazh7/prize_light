@@ -1,0 +1,46 @@
+.achievements {
+    padding: 100px 0;
+    background-color: #FFFFFF;
+  }
+  
+  .achievements__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #000000;
+    padding-bottom: 16px;
+  }
+  
+  .achievements__paragraph {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #000000;
+    padding-bottom: 42px;
+  }
+  
+  .achievementsSwiper {
+    max-width: 1290px;
+  }
+
+
+  .achievementsSwiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.achievementsSwiper-slide h2 {
+    margin-bottom: 16px; 
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.achievementsSwiper-slide img {
+    width: 332px;
+    height: 458px;
+}

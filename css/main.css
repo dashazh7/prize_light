@@ -14,5 +14,9 @@
 @import "./blocks/request.css";
 @import "./blocks/footer.css";
 
+@import "./blocks/achievements.css";
+@import "./blocks/services.css";
+
+
 @import "./blocks/callback-bt.css";
 @import "./blocks/modal-window.css";

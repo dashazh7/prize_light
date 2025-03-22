@@ -1,59 +1,153 @@
 .header {
-    padding-top: 30px;
-    padding-bottom: 80px;
+    margin-top: 24px;
+    padding-bottom: 60px;
 }
 
 .header__navigation {
+    background-color: #2A94E2;
+    border-radius: 20px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header__navigation-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 70px;
+    padding: 8px 35px;
 }
 
 .header__menu {
     display: flex;
-    align-items: center;
-    gap: 53px;
-    font-size: 16px;
-    line-height: 26px;
+    gap: 24px;
 }
 
 .header__menu a {
-    display: inline-block; 
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.5px;
     color: #FFFFFF;
-    opacity: 60%;
-    transition: transform   0.7s ease, color 0.3s ease;
 }
 
-.header__menu a:hover {
-    color: var(--accent);
-    opacity: 100%;
-    transform: scale(1.2); 
+.header__logo {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.header__logo p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #FFFFFF;
+    max-width: 116px;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    position: relative;
 }
 
 .header__phone {
     display: flex;
     align-items: center;
-    color: var(--accent);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
+    gap: 0px;
+
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
-.header__phone-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 16px;
+.header__request {
+    display: inline-block;
+    padding: 8px 13px; 
+    border: 1px solid #AFD7F4; 
+    border-radius: 20px; 
+    background-color: #FFFFFF; 
+
+    text-decoration: none; 
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #010101; 
+    
+    box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.25); 
+    transition: 0.3s; 
 }
 
-.header__logo-hidden {
-    display: none;
+
+.header__window {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 250px;
+    background: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 12px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    z-index: 100;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
+
+.header__window.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.header__window a {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__window p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.header__window-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 28px;
+    background: var(--accent);
+    color: #FFFFFF !important;
+    font-size: 10px !important; /* Размер шрифта */
+    font-weight: 400 !important; /* Толщина шрифта */
+    line-height: 16px !important; /* Межстрочное расстояние */
+    letter-spacing: 0.5px !important;
+    padding: 15px 7px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.header__window-button:hover {
+    background: #C18D69;
+}
+
 
 
 @media (max-width: 1299px) {

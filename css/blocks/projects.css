@@ -8,7 +8,7 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 3px;
-  color: var(--main-color);
+  color: #000000;
   padding-bottom: 16px;
 }
 
@@ -16,422 +16,133 @@
   font-size: 48px;
   font-weight: 600;
   line-height: 58px;
-  color: var(--main-color);
+  color: #000000;
   padding-bottom: 42px;
 }
 
-.projects__slider {
-  position: relative;
-}
-
-.swiper {
-  position: relative;
-  overflow: hidden;
-}
-
-/* Карточка */
 .projects__card {
   position: relative;
-  width: 100%;
-  max-width: 373px;
+  width: 635px;
   height: 478px;
-  border-radius: 20px;
-  overflow: hidden;
+  border-radius: 8px;
+  overflow: hidden; 
 }
 
 .projects__card img {
+    display: block;
   width: 100%;
-  height: 478px;
+  height: 100%;
   object-fit: cover;
+  overflow: hidden; 
 }
 
 .projects__card-content {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  bottom: 30px;
+  left: 30px;
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  align-items: flex-end;
-  border-radius: 20px;
-  padding: 0 24px 44px;
-  background: linear-gradient(180.07deg, rgba(217, 217, 217, 0.4) 0.06%, rgba(35, 37, 54, 0.4) 72.88%);
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  visibility: visible;
-}
-
-.content-info {
-  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 427px;
 }
 
 .projects__card-title {
+    font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 300;
-  line-height: 45px;
+  line-height: 120%;
   color: #FFFFFF;
+  margin-bottom: 15px;
 }
 
 .projects__card-paragraph {
-  font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 16px;
+  line-height: 120%;
   color: #FFFFFF;
 }
 
-.projects__card-arrow-button {
-  width: 39px;  
-  height: 39px;
-  background-color: var(--accent);
-  border-radius: 50%;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0; 
-}
-
-.projects__card-arrow-button img {
-  width: 50%; 
-  max-width: 24px; 
-  height: auto;
-  max-height: 24px; 
-  object-fit: contain; 
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.swiper-button-next::after, 
-.swiper-button-prev::after {
-  color: #FFFFFF;
-}
-
-
-.swiper-button-next {
-    right: 10px !important;
-}
-
-.swiper-button-prev {
-    left: 10px !important;
-}
-
-
-/*  Изменение карточки */
 .projects__card-hidden {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; 
+  background: rgba(0, 0, 0, 0.55); 
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+
+  padding: 30px;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  border-radius: 20px;
-  padding: 40px 33px 44px 33px;
-  background: rgba(0, 0, 0, 0.6); 
-  opacity: 0; 
-  visibility: hidden; 
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
+  gap: 15px;
 
-.projects__card-hidden.active {
-  opacity: 1; 
-  visibility: visible; 
 }
-
-.projects__card-content.active {
-  opacity: 0; 
+.projects__card:hover .projects__card-content {
+  opacity: 0;
   visibility: hidden;
+}
+
+.projects__card:hover .projects__card-hidden {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .projects__card-hidden-title {
   font-size: 30px;
   font-weight: 300;
-  line-height: 45px;
+  line-height: 120%;
   color: #FFFFFF;
-  padding-bottom: 16px;
 }
 
-.projects__card-hidden-text {
+.projects__card-hidden-text1 {
+    font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 120%;
+  color: #FFFFFF;
+  max-width: 330px;
+}
+
+.projects__card-hidden-text2 {
+    font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 16px;
-  color: #FFFFFF;
-  padding-bottom: 15px;
+  line-height: 120%;
+  color: #D4D4D4;
+
+  max-width: 490px;
 }
 
-.projects__card-hidden-numbers {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding-bottom: 24px;
+
+
+.swiper {
+  width: 1290px; 
 }
 
-.projects__card-hidden-number {
-  display: flex;
-  gap: 36px;
-  align-items: center;
-}
-
-.projects__card-hidden-number-text {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 16px;
-  color: #FFFFFF;
-}
-
-.projects__card-hidden-number-value {
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 30px;
-  color: #FFFFFF;
-}
-
-.projects__card-hidden .projects__card-button {
-  position: absolute;
-  bottom: 44px;  
-  right: 24px;  
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
-@media (max-width: 1299px) {
-  .projects__card {
-    max-width: 320px;
-    height: 380px;
-  }
-
-  .projects__card img {
-    height: 380px;
-  }
-
-  .projects__card-content {
-    gap: 20px;
-    padding: 0 20px 34px;
-  }
-
- 
-  .projects__card-arrow-button img {
-    height: 39px;
-  }
-  
-  .projects__card-hidden {
-    padding: 24px;
-  }
-  
-  .projects__card-hidden-title, .projects__card-hidden-text, .projects__card-hidden-numbers {
-    padding-bottom: 8px;
-  }
-
-  .projects__card-hidden-text {
-    font-size: 14px;
-    max-width: 200px;
-  }
-  
-  .projects__card-hidden-number {
-    gap: 16px;
-  }
-  
-  .projects__card-hidden-number-value {
-    font-size: 24px;
-  }
-  
-  .projects__card-hidden .projects__card-button {
-    bottom: 34px;  
-    right: 20px;  
-  }
-
-  .swiper-button-next::after, .swiper-button-prev::after {
-    font-size: 32px !important; 
-  }
-
+.project-next, .project-prev {
+  color: var(--accent) !important;
+}
+.project-prev {
+  left: 30px !important;
+  top: 2000px !important;
+}
+.project-next {
+  right: 30px !important;
+  top: 2000px !important
 }
 
 
-@media (max-width: 1100px) {
-  .projects__card {
-    max-width: 320px;
-    height: 400px;
-  }
-
-  .projects__card img {
-    height: 400px;
-  }
-
-  .swiper-button-next {
-    right: 115px !important;
-  }
-
-  .swiper-button-prev {
-    left: 10px !important;
-  }
-
-  .swiper__slide {
-    transform: none;
-  }
-}
-
-
-@media (max-width: 900px) {
-  .projects {
-    padding: 64px 0;
-  }
-
-  .projects__title {
-    font-size: 16px;
-    padding-bottom: 8px;
-  }
-  
-  .projects__paragraph {
-    font-size: 40px;
-    padding-bottom: 42px;
-  }
-
-  .projects__card {
-    max-width: 320px;
-  }
-
-  .swiper-button-next {
-    right: 350px !important;
-  }
-}
-
-@media (max-width: 700px) {
-  .projects__paragraph {
-    font-size: 32px;
-    line-height: 40px;
-    padding-bottom: 32px;
-  }
-
-  .projects__card {
-    max-width: 260px;
-    height: 315px;
-  }
-
-  .projects__card img {
-    height: 315px;
-  }
-
-  .projects__card-content {
-    padding: 0 16px 20px;
-  }
-
-  .projects__card-title {
-    font-size: 24px;
-    line-height: 24px;
-    padding-bottom: 8px;
-  }
-  
-  .projects__card-paragraph {
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .projects__card-button {
-    display: none;
-  }
-
-  .projects__card-hidden-title {
-    font-size: 24px;
-    line-height: 24px;
-  }
-
-  .projects__card-hidden-numbers {
-    gap: 4px;
-  }
-  
-  .projects__card-hidden-number {
-    gap: 8px;
-  }
-
-  .projects__card-hidden-number-text {
-    font-size: 14px;
-  }
-  
-  .projects__card-hidden-number-value {
-    font-size: 16px;
-  }
-
-  .projects__card-hidden .projects__card-button {
-    display: none;
-  }
-
-  .projects__card-hidden-text {
-    font-size: 12px;
-    max-width: 250px;
-  }
-
-  .swiper-button-next {
-    right: 210px !important;
-  }
-}
-
-@media (max-width: 540px) {
-  .projects {
-    padding: 40px 0;
-  }
-
-  .projects__title {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  
-  .projects__paragraph {
-    font-size: 24px;
-    line-height: 24px;
-    padding-bottom: 32px;
-  }
-
-  .projects__card {
-    max-width: 238px;
-    height: 295px;
-    margin: 0 auto;
-  }
-
-  .projects__card img {
-    height: 295px;
-  }
-
-  .projects__card-hidden-title {
-    font-size: 20px;
-  }
-
-  .projects__card-hidden-numbers {
-    gap: 0px;
-  }
-
-  .projects__card-hidden-number-text {
-    font-size: 12px;
-  }
-
-  .projects__card-hidden-number-value {
-    font-size: 14px;
-  }
-
-  .projects__card-hidden-text {
-    font-size: 10px;
-    max-width: 238px;
-  }
-
-  .swiper-button-next {
-    right: 25px !important;
-  } 
-
-  .swiper-button-prev {
-    left: 25px !important;
-  } 
-
-  .swiper-button-next::after, .swiper-button-prev::after {
-    font-size: 24px !important; 
-  }
-}
