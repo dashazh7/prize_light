@@ -23,5 +23,3 @@ class FormValidator {
         return [$errors, $comment];
     }
 }
-
-

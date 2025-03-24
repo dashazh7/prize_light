@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.classList.toggle("active");
 
         if (dropdown.classList.contains("active")) {
-            toggleButton.src = "./images/icon/navigation/expand_less.png"; 
+            toggleButton.src = "./images/header/expand_less.png"; 
         } else {
-            toggleButton.src = "./images/icon/navigation/expand_more.svg";
+            toggleButton.src = "./images/header/expand_more.svg";
         }
     });
 

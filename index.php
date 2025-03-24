@@ -485,6 +485,14 @@
     <script src="./js/copyToClipboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
+    <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
+        <script>
+            window.onload = function() {
+                document.getElementById('request').scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+    <?php } ?>
+
 </body>
 </html>
 
