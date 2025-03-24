@@ -1,46 +1,70 @@
 .achievements {
-    padding: 100px 0;
-    background-color: #FFFFFF;
-  }
+  padding-top: 100px;
+  padding-bottom: 0px;
+  background-color: var(--color-light);
+}
   
-  .achievements__title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 3px;
-    color: #000000;
-    padding-bottom: 16px;
-  }
+.achievements__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+}
   
-  .achievements__paragraph {
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 58px;
-    color: #000000;
-    padding-bottom: 42px;
-  }
+.achievements__paragraph {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  padding-bottom: 42px;
+}
   
-  .achievementsSwiper {
-    max-width: 1290px;
-  }
-
-
-  .achievementsSwiper-slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center;
+.achievements__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.achievementsSwiper-slide h2 {
-    margin-bottom: 16px; 
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
+.achievements__card img {
+  width: 410px;
+  height: 510px;
+  border-radius: 20px;
+} 
+
+.achievements__card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
 }
 
-.achievementsSwiper-slide img {
-    width: 332px;
-    height: 458px;
+
+.achievements .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  left: 0;
+}
+
+.achievements .owl-prev, 
+.achievements .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 24px; 
+  color: var(--color-dark); 
+  cursor: pointer;
+  background: none !important;
+}
+
+.achievements .owl-prev {
+  left: -50px; 
+}
+
+.achievements .owl-next {
+  right: -50px; 
 }

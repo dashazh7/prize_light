@@ -1,6 +1,6 @@
 .request {
-    background-color: #FFFFFF;
-    padding: 100px 0; 
+    padding: 100px 0px;
+    background-color: var(--color-light);
 }
 
 .request__container {
@@ -16,7 +16,6 @@
 }
 
 .request__title {
-    color: #000000;
     font-size: 40px;
     line-height: 58px;
     font-weight: 600;
@@ -55,10 +54,6 @@
 	padding: 25px 118px;
     border: none;
 	border-radius: 20px;
-}
-
-.request__form-button:hover {
-    background-color: #FFCA9E;
 }
 
 .request__images {

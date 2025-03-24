@@ -6,7 +6,6 @@
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 3px;
-    color: var(--text-color);
     font-weight: 500;
     padding-bottom: 16px;
 }
@@ -14,7 +13,6 @@
 .advantages__paragraph {
     font-size: 48px;
     line-height: 58px;
-    color: var(--text-color);
     font-weight: 600;
     padding-bottom: 66px;
 }

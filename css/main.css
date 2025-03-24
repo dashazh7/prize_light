@@ -9,14 +9,12 @@
 /* Blocks */
 @import "./blocks/header.css";
 @import "./blocks/abous-us.css";
+@import "./blocks/services.css";
 @import "./blocks/projects.css";
 @import "./blocks/advantages.css";
+@import "./blocks/achievements.css";
 @import "./blocks/request.css";
 @import "./blocks/footer.css";
-
-@import "./blocks/achievements.css";
-@import "./blocks/services.css";
-
 
 @import "./blocks/callback-bt.css";
 @import "./blocks/modal-window.css";

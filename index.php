@@ -9,7 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@9.0.0/swiper-bundle.min.css" />
+
+     <!-- jQuery -->
+    <script src="./js/jquery-3.7.1.js" ></script>
+
+     <!-- OwlCarousel2 -->
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -29,16 +39,26 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/100180695" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
-</head>
+    <!-- Шапка -->
     <header class="header">
         <div class="container">
             <nav class="header__navigation">
                 <ul class="header__menu">
                     <li><a href="#about">О нас</a></li>
-                    <li><a href="#">Услуги</a></li>
+                    <li class="header__services">
+                        <a href="#services">Услуги</a>
+                        <div class="header__services-window">
+                            <a href="#service1" data-slide-to="0">Услуга 1</a>
+                            <a href="#service2" data-slide-to="1">Услуга 2</a>
+                            <a href="#service3" data-slide-to="2">Услуга 3</a>
+                            <a href="#service4" data-slide-to="3">Услуга 4</a>
+                            <a href="#service5" data-slide-to="4">Услуга 5</a>
+                        </div>
+                    </li>
+
                     <li><a href="#projects">Проекты</a></li>
                     <li><a href="#advantages">Почему мы</a></li>
-                    <li><a href="#request">Достижения</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
                 </ul>
 
                 <div class="header__logo">
@@ -47,22 +67,22 @@
                 </div>
     
                 <div class="header__contacts">
-                    <a class="header__phone" >
+                    <a class="header__phone">
                         +7 (952) 689-12-44
-                        <img id="dropdownToggle" src="./images/icon/navigation/expand_more.svg" alt="">
+                        <img id="dropdownToggle" src="./images/header/expand_more.svg" alt="">
                     </a>
 
                     <div class="header__window">
-                        <a href="">+7 (952) 689-12-44</a>
-                        <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                        <a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a>
+                        <p>Бухгалтер<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
                         <p>Главный инженер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
-                        <a class="header__window-button" href="">Связаться с нами</a>
-                        <p>Email<br><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
-                        <p>Адрес<br><a href="">г.Тюмень, ул. Шмидта, д.48а</a></p>
-                        <p>Режим работы<br><a href="">example@yandex.ru</a></p>
+                        <a class="header__window-button" href="#request">Связаться с нами</a>
+                        <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
+                        <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
+                        <p>Режим работы<br><a href="">Пн-Пт: 9:00-18:00</a></p>
                     </div>
 
-                    <a class="header__request" href="">
+                    <a class="header__request" href="#request">
                         Связаться с нами 
                     </a>
                 </div>
@@ -72,6 +92,7 @@
     </header>
     
     <main>
+         <!-- О нас -->
         <div class="about-us__wrapper">
             <section class="about-us" id="about">
                 <div class="background__adapt">
@@ -97,18 +118,18 @@
                             </div>
         
                             <div class="about-us__image">
-                                <img src="./images/engineer-working-building-factory 5.png" alt="">
+                                <img src="./images/about-us/about-us.png" alt="">
                             </div>
                         </div>
         
                         <div class="about-us__clients">
                             <h3 class="about-us__clients-title">Мы работаем с</h3>
                             <div class="about-us__clients-logos">
-                                <img src="./images/logo_clients.svg">
-                                <img src="./images/logo_clients.svg">
-                                <img src="./images/logo_clients.svg">
-                                <img src="./images/logo_clients.svg">
-                                <img src="./images/logo_clients.svg">
+                                <img src="./images/about-us/logo_clients.svg">
+                                <img src="./images/about-us/logo_clients.svg">
+                                <img src="./images/about-us/logo_clients.svg">
+                                <img src="./images/about-us/logo_clients.svg">
+                                <img src="./images/about-us/logo_clients.svg">
                             </div>
                         </div>
 
@@ -120,18 +141,19 @@
             </section>
         </div>
 
-        <section class="services">
+         <!-- Услуги -->
+        <section class="services" id="services">
             <div class="container">
                 <h1 class="services__title">Услуги</h1>
                 <p class="services__paragraph">Какой-то текст Какой-то текст</p>
             </div>
-            <div class="swiper servicesSwiper">
-                <div class="swiper-wrapper">    
-                    <div class="swiper-slide">
+            <div class="owl-carousel-container">
+                <div class="owl-carousel owl-theme slider-one">
+                    <div class="item" id="service1">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 1</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -142,11 +164,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item" id="service2">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 2</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -157,11 +179,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item" id="service3">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 3</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -172,11 +194,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item" id="service4">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 4</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -187,11 +209,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item" id="service5">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 5</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -202,11 +224,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item" id="service6">
                         <div class="services__card">
-                            <img src="./images/service1.png">
+                            <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Геодезия</h2>
+                                <h2 class="services__card-title">Услуга 6</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
@@ -219,22 +241,20 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next services-next"></div>
-            <div class="swiper-button-prev services-prev"></div>
-
         </section>
 
+         <!-- Проекты -->
         <section class="projects" id="projects">
             <div class="container">
                 <h1 class="projects__title">НАШИ ПРОЕКТЫ</h1>
                 <p class="projects__paragraph">Какой-то текст Какой-то текст</p>
             </div>
 
-            <div class="swiper projectsSwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+            <div class="owl-carousel-container">
+                <div class="owl-carousel owl-theme slider-two">
+                    <div class="item">
                         <div class="projects__card">
-                            <img src="3.png">
+                            <img src="./images/projects/project.png">
                             <div class="projects__card-content">
                                 <h2 class="projects__card-title">ЖК “Брусника”</h2>
                                 <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
@@ -242,13 +262,13 @@
                             <div class="projects__card-hidden">
                                 <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
                                 <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
-                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="item">
                         <div class="projects__card">
-                            <img src="3.png">
+                            <img src="./images/projects/project.png">
                             <div class="projects__card-content">
                                 <h2 class="projects__card-title">ЖК “Брусника”</h2>
                                 <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
@@ -256,79 +276,118 @@
                             <div class="projects__card-hidden">
                                 <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
                                 <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
-                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
                             </div>
                         </div>
                     </div>
-            
-            
-        </div>
-        <div class="swiper-button-next project-next"></div>
-        <div class="swiper-button-prev project-prev"></div> 
-    </div>
-         
-            
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">ЖК “Брусника”</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
         </section>
 
-
+        <!-- Почему мы -->
         <section class="advantages" id="advantages">
             <div class="container">
                 <h1 class="advantages__title">ПОЧЕМУ МЫ?</h1>
                 <p class="advantages__paragraph">Какой-то текст какой-то текст </p>
+            
                 <div class="advantages__list">
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantage-icon.svg" alt="">
+                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
                         <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantage-icon.svg" alt="">
+                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
                         <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantage-icon.svg" alt="">
+                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
                         <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantage-icon.svg" alt="">
+                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
                         <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="achievements">
+         <!-- Достижения -->
+        <section class="achievements" id="achievements">
             <div class="container">
                 <h1 class="achievements__title">ДОСТИЖЕНИЯ И ПАТЕНТЫ</h1>
                 <p class="achievements__paragraph">Какой-то текст Какой-то текст</p>
             </div>
 
-            <div class="swiper achievementsSwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide achievementsSwiper-slide">
-                        <h2>ООО Запсибгазпром</h2>
-                        <img src="./images/грамота.png">
+            <div class="owl-carousel-container">
+                <div class="owl-carousel owl-theme slider-three">
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="swiper-slide achievementsSwiper-slide">
-                        <h2>ООО Запсибгазпром</h2>
-                        <img src="./images/грамота.png">
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="swiper-slide achievementsSwiper-slide">
-                        <h2>ООО Запсибгазпром</h2>
-                        <img src="./images/грамота.png">
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                    <div class="swiper-slide achievementsSwiper-slide">
-                        <h2>ООО Запсибгазпром</h2>
-                        <img src="./images/грамота.png">
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div>
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="achievements__card">
+                            <h2>ООО Запсибгазпром</h2>
+                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
+                                <img src="./images/achievements/achievement.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>      
             </div>
-            <div class="swiper-button-next achievements-next"></div>
-            <div class="swiper-button-prev achievements-prev"></div>
         </section>
 
-
-
-
+         <!-- Заявка -->
         <section class="request" id="request">
             <div class="container">
                 <div class="request__container">
@@ -350,23 +409,21 @@
                     </div>
                     <div class="request__images">
                         <div class="request__images-column">
-                            <img class="request__images-first" src="./images/req1.png" alt="">
-                            <img class="request__images-second" src="./images/req3.png" alt="">
+                            <img class="request__images-first" src="./images/request/req1.png" alt="">
+                            <img class="request__images-second" src="./images/request/req3.png" alt="">
                         </div>
-                        <img class="request__images-third" src="./images/req2.png" alt="">
+                        <img class="request__images-third" src="./images/request/req2.png" alt="">
                     </div>
 
                     <div class="request__images-adaptation">
-                        <img src="./images/engineer-working-building-factory 5.png" alt="">
+                        <img src="./images/about-us/about-us.png" alt="">
                     </div>
-
                 </div>
             </div>        
         </section>
     </main>
 
-    
-
+     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer__navigation">
@@ -376,10 +433,10 @@
                 </a>
                 <ul class="footer__menu">
                     <li><a href="#about">О нас</a></li>
-                    <li><a href="#projects">Услуги</a></li>
+                    <li><a href="#services">Услуги</a></li>
                     <li><a href="#projects">Проекты</a></li>
                     <li><a href="#advantages">Почему мы</a></li>
-                    <li><a href="#request">Достижения</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
                 </ul>
             </div>
            
@@ -401,14 +458,14 @@
 
     <!-- Кнопка звонка -->
     <a href="tel:+1234567890" class="callback-bt">
-        <img src="./images/icons/icons/communication/Vector.svg" alt="">
+        <img src="./images/call.svg" alt="">
     </a>
 
-    <!-- Модальное окно -->
+    <!-- Модальное окно при отправке заявки -->
     <div id="successModal" class="modal">
         <div class="modal__content">
             <div class="modal__content-info">
-                <img src="./images/ok2.svg" alt="">
+                <img src="./images/request-modal.svg" alt="">
                 <p>Спасибо!</p>
                 <h2>Ваша заявка отправлена!</h2>
                 <button class="modal__close">ОК</button>
@@ -423,41 +480,10 @@
     <script src="./js/toggleCallbackButton.js"></script>
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const toggleButton = document.getElementById("dropdownToggle");
-    const dropdown = document.querySelector(".header__window");
-
-    toggleButton.addEventListener("click", function (event) {
-        event.preventDefault(); // Чтобы не было перезагрузки страницы
-        dropdown.classList.toggle("active");
-
-        // Меняем картинку стрелочки
-        if (dropdown.classList.contains("active")) {
-            toggleButton.src = "./images/icon/navigation/expand_less.png"; // Стрелка вверх
-        } else {
-            toggleButton.src = "./images/icon/navigation/expand_more.svg"; // Стрелка вниз
-        }
-    });
-
-    // Закрытие при клике вне окна
-    document.addEventListener("click", function (event) {
-        if (!dropdown.contains(event.target) && event.target !== toggleButton) {
-            dropdown.classList.remove("active");
-            toggleButton.src = "./images/icon/navigation/expand_more.svg"; // Возвращаем стрелку вниз
-        }
-    });
-});
-
-
-</script>
-
-
-
+    <script src="./js/headerWindow.js"></script>
+    <script src="./js/owlCarousel.js"></script>
+    <script src="./js/copyToClipboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 </body>
 </html>

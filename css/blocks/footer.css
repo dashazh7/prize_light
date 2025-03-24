@@ -15,7 +15,7 @@
     gap: 16px;
     font-size: 24px;
     font-weight: 800;
-    color: #FFFFFF;
+    color: var(--color-light);
 }
 
 .footer__logo-img {
@@ -36,13 +36,8 @@
 }
 
 .footer__menu a {
-    color: #FFFFFF;
+    color: var(--color-light);
 }
-
-.footer__menu a:hover {
-    color: var(--accent);
-}
-
 
 .footer__information {
     display: flex;
@@ -58,7 +53,7 @@
 .footer__address p, .footer__contacts p {
     font-size: 18px;
     font-weight: 300;
-    color: #ffffff;
+    color: var(--color-light);
 }
 
 .footer__socials {
@@ -68,12 +63,9 @@
 }
 
 .footer__contacts a {
-    color: #FFFFFF;
+    color: var(--color-light);
 }
 
-.footer__contacts a:hover {
-    color: var(--accent);
-}
 
 
 @media (max-width: 900px) {

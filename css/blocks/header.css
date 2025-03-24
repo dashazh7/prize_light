@@ -133,20 +133,55 @@
     height: 28px;
     background: var(--accent);
     color: #FFFFFF !important;
-    font-size: 10px !important; /* Размер шрифта */
-    font-weight: 400 !important; /* Толщина шрифта */
-    line-height: 16px !important; /* Межстрочное расстояние */
+    font-size: 10px !important; 
+    font-weight: 400 !important; 
+    line-height: 16px !important; 
     letter-spacing: 0.5px !important;
     padding: 15px 7px;
     border-radius: 4px;
     text-decoration: none;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
-.header__window-button:hover {
-    background: #C18D69;
+.header__services {
+    position: relative;
 }
+
+.header__services-window {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 13px 11px;
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    z-index: 10;
+    min-width: 225px;
+}
+
+.header__services-window a {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.header__services-window a:hover {
+    background: #f5f5f5;
+}
+
+.header__services:hover .header__services-window {
+    display: flex;
+}
+
+
 
 
 
