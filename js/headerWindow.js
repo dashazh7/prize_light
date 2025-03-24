@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("click", function (event) {
         if (!dropdown.contains(event.target) && event.target !== toggleButton) {
             dropdown.classList.remove("active");
-            toggleButton.src = "./images/icon/navigation/expand_more.svg"; 
+            toggleButton.src = "./images/header/expand_more.svg"; 
         }
     });
 });

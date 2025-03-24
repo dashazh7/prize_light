@@ -474,9 +474,6 @@
     </div>
 
     <!-- Подключение JavaScript файлов -->
-    <script src="./js/toggleCardContent.js"></script>
-    <script src="https://unpkg.com/swiper@9.0.0/swiper-bundle.min.js"></script>
-    <script src="./js/swiperSlider.js"></script>
     <script src="./js/toggleCallbackButton.js"></script>
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
