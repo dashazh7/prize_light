@@ -181,92 +181,87 @@
     display: flex;
 }
 
-
-
-
-
 @media (max-width: 1299px) {
-    .header__phone-icon {
-        margin-right: 12px;
-    } 
-}
+    .header {
+        padding-bottom: 40px;
+    }
+  }
+
 
 @media (max-width: 1100px) {
-    .header {
-        padding-bottom: 48px;
-    }
-
-    .header__navigation-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 40px; 
-    }
-
     .header__menu {
-        display: flex;
-        gap: 40px; 
-        font-size: 14px;
+        gap: 16px;
+    }
+    
+    .header__menu a {
+        font-size: 10px;
+    }
+
+    .header__logo {
+        gap: 4px;
+    }
+
+    .header__logo img {
+        width: 32px;
+        height: 35px;
+    }
+    
+    .header__logo p {
+        font-size: 8px;
+        max-width: 100px;
+    }
+
+    .header__phone {    
+        font-size: 10px;
+    }
+
+    .header__phone img {
+        width: 16px;
+    }
+
+    .header__request {
+        padding: 6px 11px; 
+        font-size: 10px;
     }
 }
 
 @media (max-width: 900px) {
-    .header {
-        padding-bottom: 24px;
-    }
-
-    .header__logo-img {
-        width: 45px;
-        height: 48px;
-    }
-
-    .header__navigation-wrapper {
-        gap: 36px;
-    }
-
-    .header__menu {
-        gap: 30px; 
-        font-size: 12px;
-    }
-
-    .header__phone {
-        font-size: 14px;
-    }
-    
-    .header__phone-icon {
-        width: 18px;
-        height: 18px;
-        margin-right: 10px;
+    .header__request {
+        display: none;
     }
 }
 
 @media (max-width: 700px) {
     .header {
-        background-color: #FFFFFF;
-        padding: 35px 0px;
+        padding-bottom: 24px;
     }
 
-   .header__logo {
+    .header__navigation {
+        flex-direction: row-reverse; 
+    }
+
+    .header__contacts {
         display: none;
-   }
+    }
+    .header__navigation {
+        padding: 8px 24px;
+    }
 
     .header__menu {
-        display: none;
+        gap: 8px;
     }
-
-    .header__phone {
-        display: none;
+    
+    .header__menu a {
+        font-size: 10px;
     }
+}
 
-    .header__logo-hidden {
-        display: flex;
-        color: var(--main-color);
-        font-size: 20px;
-        line-height: 22px;
-    }
+@media (max-width: 540px) {
+    .header__navigation {
+        width: 320px;
+        background-color: var(--main-color);
+        border-radius: 0;
 
-    .header__logo-img {
-        width: 24px;
-        height: 24px;
-        margin-right: 13px;
+        padding: 8px 35px;
     }
 }

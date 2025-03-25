@@ -72,28 +72,6 @@
 }
 
 @media (max-width: 700px) {
-    .advantages__paragraph {
-      font-size: 32px;
-      line-height: 40px;
-      padding-bottom: 32px;
-    }
-
-    .advantages__list {
-        gap: 60px 60px;
-    }
-
-    .advantages__item-text {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .advantages__item-icon {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 540px) {
     .advantages {
         padding: 40px 0;
       }
@@ -126,6 +104,5 @@
 
     .advantages__item-text {
         font-size: 16px;
-    }
-    
+    }  
 }

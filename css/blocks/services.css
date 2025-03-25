@@ -105,10 +105,10 @@
   max-width: 269px;
 }
 
-
 .owl-carousel-container {
   position: relative;
   max-width: 1290px;
+  padding: 0 19px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -117,13 +117,11 @@
 .owl-nav {
   position: absolute;
   top: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  transform: translateY(-50%);
-  z-index: 10;
-  width: 100%;
-  left: 0;
 }
+
   
 .owl-prev, .owl-next {
   position: absolute;
@@ -140,7 +138,7 @@
 }
   
 .services .owl-next {
-  right: -34px; 
+  right: -40px; 
 }
 
 .owl-prev:hover, .owl-next:hover {

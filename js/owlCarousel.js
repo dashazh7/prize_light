@@ -17,25 +17,43 @@ $(document).ready(function(){
   
     $('.owl-carousel').trigger('to.owl.carousel', [slideIndex, 1000]); 
   });
-
-  
-  $(".slider-two").owlCarousel({
-    items: 2,
-    loop: true,        
-    margin: 30,        
-    nav: true,         
-    navText: ['<img src="./images/nav-left.svg" alt="">', 
-              '<img src="./images/nav-right.svg" alt="">'],
-    dots: false,  
+    
+    $(".slider-two").owlCarousel({
+      items: 2,
+      loop: true,        
+      margin: 30,        
+      nav: true,         
+      navText: ['<img src="./images/nav-left.svg" alt="">', 
+                '<img src="./images/nav-right.svg" alt="">'],
+      dots: false,  
+      responsive: {
+        0: {
+          items: 1
+        },
+        1300: {
+          items: 2
+        }
+      }
+    });
+    
+    $(".slider-three").owlCarousel({
+      items: 3,
+      loop: true,        
+      margin: 36,        
+      nav: true,         
+      navText: ['<img src="./images/nav-left.svg" alt="">', 
+                '<img src="./images/nav-right.svg" alt="">'],
+      dots: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1100: {
+          items: 2
+        },
+        1300: {
+          items: 3
+        }
+      }  
+    });
   });
-  
-  $(".slider-three").owlCarousel({
-    items: 3,
-    loop: true,        
-    margin: 36,        
-    nav: true,         
-    navText: ['<img src="./images/nav-left.svg" alt="">', 
-              '<img src="./images/nav-right.svg" alt="">'],
-    dots: false,  
-  });
-});

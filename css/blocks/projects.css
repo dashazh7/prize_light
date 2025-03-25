@@ -120,3 +120,168 @@
 .projects .owl-next {
   right: -26px; 
 }
+
+
+
+@media(max-width: 1330px) {
+  .projects .owl-prev {
+    left: 0px; 
+  }
+    
+  .projects .owl-next {
+    right: 25px; 
+  }
+}
+
+@media (max-width: 1299px) {
+  .projects .owl-carousel-container {
+      max-width: 1100px;
+      padding: 0 19px;
+  }
+
+  .projects .owl-prev {
+    left: -40px; 
+  }
+    
+  .projects .owl-next {
+    right: 420px; 
+  }
+}
+
+@media (max-width: 1130px) {
+  .projects .owl-prev {
+    left: 0px; 
+  }
+    
+  .projects .owl-next {
+    right: 465px; 
+  }
+}
+
+@media (max-width: 1100px) {
+  .projects .owl-carousel-container {
+    max-width: 900px;
+    padding: 0 19px;
+  }
+
+  .projects .owl-prev {
+    left: -40px; 
+  }
+    
+  .projects .owl-next {
+    right: 220px; 
+  }
+}
+
+@media (max-width: 930px) {
+  .projects .owl-prev {
+    left: 0px; 
+  }
+    
+  .projects .owl-next {
+    right: 265px; 
+  }
+}
+
+@media (max-width: 900px) {
+  .projects {
+    padding: 64px 0px;
+}
+
+  .projects__title {
+      font-size: 16px;
+      padding-bottom: 8px;
+  }
+
+  .projects__paragraph {
+      font-size: 40px;
+      padding-bottom: 42px;
+  }
+  .projects .owl-carousel-container {
+      max-width: 700px;
+      padding: 0 19px;
+  }
+
+  .projects .owl-prev {
+    left: -40px; 
+  }
+    
+  .projects .owl-next {
+    right: 20px; 
+  }
+}
+
+@media (max-width: 730px) {
+  .projects .owl-prev {
+    left: 0px; 
+  }
+    
+  .projects .owl-next {
+    right: 65px; 
+  }
+}
+
+@media (max-width: 700px) {
+  .projects {
+    padding: 40px 0;
+  }
+
+  .projects__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .projects__paragraph {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+  .projects__card {
+    width: 450px;
+    height: 350px;
+    border-radius: 8px;
+  }
+  
+  .projects .owl-carousel-container {
+    max-width: 500px;
+    padding: 0 19px;
+}
+
+  .projects .owl-prev {
+    left: -40px; 
+  }
+    
+  .projects .owl-next {
+    right: -30px; 
+  }
+}
+
+@media (max-width: 540px) {
+  .projects .owl-carousel-container {
+    max-width: 320px;
+    padding: 0 19px;
+  }
+  .projects__card {
+    width: 250px;
+    height: 315px;
+    border-radius: 8px;
+  }
+
+  .projects .owl-prev {
+    left: -40px; 
+  }
+    
+  .projects .owl-next {
+    right: -5px; 
+  }
+}
+
+@media (max-width: 350px) {
+  .projects .owl-prev {
+    left: 0px; 
+  }
+    
+  .projects .owl-next {
+    right: 30px; 
+  }
+}

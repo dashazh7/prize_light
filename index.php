@@ -95,7 +95,6 @@
          <!-- О нас -->
         <div class="about-us__wrapper">
             <section class="about-us" id="about">
-                <div class="background__adapt">
                     <div class="container">
                         <div class="about-us__content">
                             <div class="about-us__info">
@@ -121,6 +120,10 @@
                                 <img src="./images/about-us/about-us.png" alt="">
                             </div>
                         </div>
+
+                        <div class="about-us__button">
+                            <a href="tel:+79526891244">Связаться с нами</a>
+                        </div>
         
                         <div class="about-us__clients">
                             <h3 class="about-us__clients-title">Мы работаем с</h3>
@@ -131,11 +134,6 @@
                                 <img src="./images/about-us/logo_clients.svg">
                                 <img src="./images/about-us/logo_clients.svg">
                             </div>
-                        </div>
-
-                        <div class="about-us__button">
-                            <a href="tel:+79526891244">Связаться с нами</a>
-                        </div>
                     </div>
                 </div>
             </section>
