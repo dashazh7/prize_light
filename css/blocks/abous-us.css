@@ -68,7 +68,7 @@
     display: flex;
     align-items: center;
     gap: 100px;
-    margin-top: 50px;
+    margin-top: 32px;
 }
 
 .about-us__clients-title {
@@ -93,6 +93,83 @@
 .about-us__button {
     display: none;
 }
+
+
+
+@media (min-width: 1725px) {
+    .about-us__content {
+        gap: 0; 
+    }
+    
+    .about-us__info {
+        max-width: 900px;
+    }
+
+    .about-us__title {
+        font-size: 70px;
+        line-height: 90px;
+        padding-top: 16px;
+        padding-bottom: 48px;
+    }
+    
+    .about-us__paragraph {
+        font-size: 26px;
+        padding-bottom: 76px;
+        max-width: 960px;
+    }
+    
+    .about-us__image {
+        max-width: 557px !important;
+        height: 561px !important;
+    }
+
+    .about-us__image img {
+        max-width: 557px !important;
+        height: 561px !important;
+    }
+
+    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+        padding: 32px 48px; 
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .about-us__stat-item3{
+        max-width: 350px;
+    }
+
+    .about-us__stat-value {
+        font-size: 48px;
+    }
+    
+    .about-us__stat-label {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .about-us__clients {
+        max-width: 1256px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        margin-top: 32px;
+    }
+    
+    .about-us__clients-title {
+        font-size: 24px;
+        width: 200px;
+    }
+    
+    .about-us__clients-logos img {
+        width: 200px;
+        height: 120px;
+    }
+}
+
 
 @media (max-width: 1299px) {
     .about-us {
@@ -134,13 +211,23 @@
     }
 }
 
+
 @media (max-width: 1100px) {
     .about-us__info {
-        max-width: 400px;
+        max-width: 500px;
+    }
+
+    .about-us__content {
+        gap: 50px; 
+    }
+
+    .about-us__image {
+        max-width: 300px !important;
+        height: auto;
     }
 
     .about-us__title {
-        font-size: 36px;
+        font-size: 48px;
         padding-bottom: 24px;
     }
     
@@ -159,16 +246,6 @@
         line-height: 16px;
     }
 
-    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
-        border: none;
-        padding: 0; 
-    
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 5px;
-        text-align: left;
-    }
-
     .about-us__clients {
         max-width: 900px;
         gap: 20px;
@@ -180,6 +257,7 @@
         height: 70px;
     }
 }
+
 
 @media (max-width: 900px) {
     .about-us__image {
@@ -222,6 +300,7 @@
     
 }
 
+
 @media (max-width: 700px) {
     .about-us {
         padding-top: 35px;
@@ -236,16 +315,16 @@
     }
 
    .about-us__clients-logos {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
    }
 
    .about-us__button {
-    display: inline-block;
-    width: 500px;
-    padding: 14px 105px; 
-    border-radius: 20px; 
-    background-color: var(--accent);
-    text-align: center;
+        display: inline-block;
+        width: 462px;
+        padding: 14px 105px; 
+        border-radius: 20px; 
+        background-color: var(--accent);
+        text-align: center;
    }
 
    .about-us__button a {
@@ -256,6 +335,47 @@
    }
 }
 
+
 @media (max-width: 540px) {
-    
-  }
+   .about-us__title {
+        font-size: 30px;
+        max-width: 320px;
+    }
+
+    .about-us__paragraph {
+        font-size: 14px;
+        max-width: 320px;
+    }
+
+    .about-us__statistics {
+        max-width: 320px;
+        gap: 32px;
+    }
+
+    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+        border: none;
+        padding: 0; 
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .about-us__button {
+        display: block;
+        width: 100%;
+        padding: 0; 
+        height: 50px;
+        padding-top: 12px;
+   }
+
+   .about-us__button a {
+        font-size: 14px;
+   }
+
+    .about-us__clients-logos img {
+        width: 80px;
+    }
+
+    .about-us__clients-logos {
+        max-width: 320px;
+       }
+}

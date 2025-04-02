@@ -26,8 +26,8 @@
 }
 
 .achievements__card img {
-  width: 410px;
-  height: 510px;
+  width: 362px !important;
+  height: 488px;
   border-radius: 20px;
 } 
 
@@ -37,7 +37,7 @@
   line-height: 32px;
 }
 
-
+/* Карусель */
 .achievements .owl-nav {
   position: absolute;
   top: 50%;
@@ -69,7 +69,50 @@
   right: -50px; 
 }
 
-@media(max-width: 1330px) {
+
+
+@media (min-width: 1725px) and (max-width: 1790px) {
+  .achievements .owl-prev {
+    left: 5px; 
+  }
+    
+  .achievements .owl-next {
+    right: 10px !important; 
+  }
+}
+
+
+@media (min-width: 1725px) {
+  .achievements {
+    padding-top: 120px;
+  }
+    
+  .achievements__title {
+    font-size: 26px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+    
+  .achievements__paragraph {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 58px;
+    padding-bottom: 54px;
+  }
+
+  .achievements__card h2 {
+    font-size: 24px;
+  }
+
+  .achievements__card img {
+    width: 562px !important;
+    height: 688px;
+    border-radius: 20px;
+  } 
+}
+
+
+@media(max-width: 1350px) {
   .achievements .owl-prev {
     left: 0px; 
   }
@@ -79,13 +122,8 @@
   }
 }
 
+
 @media (max-width: 1299px) {
-  .achievements__card img {
-    width: 500px !important;
-    height: 614px !important;
-    border-radius: 20px;
-  } 
-  
   .achievements .owl-carousel-container {
       max-width: 1100px;
       padding: 0 19px;
@@ -96,9 +134,10 @@
   }
     
   .achievements .owl-next {
-    right: -30px; 
+    right: 100px; 
   }
 }
+
 
 @media(max-width: 1130px) {
   .achievements .owl-prev {
@@ -106,9 +145,10 @@
   }
     
   .achievements .owl-next {
-    right: 15px; 
+    right: 130px; 
   }
 }
+
 
 @media (max-width: 1100px) {
   .achievements .owl-carousel-container {
@@ -121,9 +161,10 @@
   }
     
   .achievements .owl-next {
-    right: 320px; 
+    right: 450px; 
   }
 }
+
 
 @media (max-width: 930px) {
   .achievements .owl-prev {
@@ -131,9 +172,10 @@
   }
     
   .achievements .owl-next {
-    right: 350px; 
+    right: 490px; 
   }
 }
+
 
 @media (max-width: 900px) {
   .achievements {
@@ -159,9 +201,10 @@
   }
     
   .achievements .owl-next {
-    right: 100px; 
+    right: 250px; 
   }
 }
+
 
 @media (max-width: 730px) {
   .achievements .owl-prev {
@@ -169,9 +212,10 @@
   }
     
   .achievements .owl-next {
-    right: 130px; 
+    right: 270px; 
   }
 }
+
 
 @media (max-width: 700px) {
   .achievements {
@@ -199,9 +243,10 @@
   }
     
   .achievements .owl-next {
-    right: -40px; 
+    right: 50px; 
   }
 }
+
 
 @media (max-width: 540px) {
   .achievements__card img {
@@ -223,6 +268,7 @@
     right: -40px; 
   }
 }
+
 
 @media (max-width: 350px) {
   .achievements .owl-prev {

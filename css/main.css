@@ -8,6 +8,7 @@
 
 /* Blocks */
 @import "./blocks/header.css";
+@import "./blocks/fixed-header.css";
 @import "./blocks/abous-us.css";
 @import "./blocks/services.css";
 @import "./blocks/projects.css";

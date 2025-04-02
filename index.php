@@ -39,6 +39,29 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/100180695" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
+    <!-- Фиксированная шапка -->
+    <header class="fixed__header">
+        <div class="container">
+            <nav class="fixed__header-navigation">
+                <div class="fixed__header-logo">
+                    <img src="./images/logotype.svg" alt="">
+                    <div class="fixed__header-logo--text">
+                        <h1>Инженерные изыскания в строительстве с 1991</h1>
+                        <p>С нами надежнее</p>
+                    </div>
+                </div>
+                <div class="fixed__header-contacts">
+                    <a class="fixed__header-contacts--number" href="">+7 (952) 689-12-44</a>
+                    <a class="fixed__header-contacts--email" href="">example@yandex.ru</a>
+                    <a class="fixed__header-contacts--btn" href="#request">
+                        Связаться с нами 
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+   
+
     <!-- Шапка -->
     <header class="header">
         <div class="container">
@@ -46,7 +69,10 @@
                 <ul class="header__menu">
                     <li><a href="#about">О нас</a></li>
                     <li class="header__services">
-                        <a href="#services">Услуги</a>
+                        <a class="header__menu-window">
+                            Услуги
+                            <img id="ServicesDropdownToggle" src="./images/header/expand_more.svg" alt="">
+                        </a>
                         <div class="header__services-window">
                             <a href="#service1" data-slide-to="0">Услуга 1</a>
                             <a href="#service2" data-slide-to="1">Услуга 2</a>
@@ -122,7 +148,7 @@
                         </div>
 
                         <div class="about-us__button">
-                            <a href="tel:+79526891244">Связаться с нами</a>
+                            <a href="#request">Связаться с нами</a>
                         </div>
         
                         <div class="about-us__clients">
@@ -476,9 +502,29 @@
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
     <script src="./js/headerWindow.js"></script>
+    <script src="./js/servicesWindow.js"></script>
     <script src="./js/owlCarousel.js"></script>
     <script src="./js/copyToClipboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector(".fixed__header");
+    const aboutSection = document.querySelector("#about");
+
+    const observer = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) {
+            header.classList.remove("visible");
+        } else {
+            header.classList.add("visible");
+        }
+    }, { threshold: 0.1 });
+
+    observer.observe(aboutSection);
+});
+
+    </script>
+    
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>

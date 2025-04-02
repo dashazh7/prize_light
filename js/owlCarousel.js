@@ -7,7 +7,36 @@ $(document).ready(function(){
     navText: ['<img src="./images/nav-left.svg" alt="">', 
               '<img src="./images/nav-right.svg" alt="">'], 
     dots: false,  
+    responsive: {
+      0: {
+        items: 1,
+        nav: false, 
+        touchDrag: true,
+        autoplay: true, 
+        autoplayTimeout: 3000, 
+        autoplayHoverPause: true,
+      },
+      360: {
+        items: 1,
+        nav: true,
+        touchDrag: true,
+        autoplay: false, 
+      },
+      900: {
+        items: 2,
+        nav: true,  
+        touchDrag: false,
+        autoplay: false, 
+      },
+      1101: {
+        items: 3,
+        nav: true,  
+        touchDrag: false,
+        autoplay: false, 
+      }
+    } 
   });
+
 
   $('a[href^="#service"]').on('click', function (event) {
     event.preventDefault();
@@ -28,7 +57,15 @@ $(document).ready(function(){
       dots: false,  
       responsive: {
         0: {
-          items: 1
+          items: 1,
+          nav: false, 
+          touchDrag: true,
+          autoplay: true, 
+          autoplayTimeout: 3000, 
+          autoplayHoverPause: true,
+        },
+        360: {
+          items: 1,
         },
         1300: {
           items: 2
@@ -46,7 +83,15 @@ $(document).ready(function(){
       dots: false,
       responsive: {
         0: {
-          items: 1
+          items: 1,
+          nav: false, 
+          touchDrag: true,
+          autoplay: true, 
+          autoplayTimeout: 3000, 
+          autoplayHoverPause: true,
+        },
+        360: {
+          items: 1,
         },
         1100: {
           items: 2

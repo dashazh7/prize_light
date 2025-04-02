@@ -58,3 +58,10 @@ html {
       padding: 0 19px;
   }
 }
+
+@media (min-width: 1725px) {
+  .container {
+      max-width: 1725px;
+      padding: 0 19px;
+  }
+}

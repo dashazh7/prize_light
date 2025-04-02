@@ -52,6 +52,21 @@
     }
 }
 
+
+
+@media (min-width: 1725px) {
+    .callback-bt {
+        height: 78px;
+        width: 78px;
+    }
+
+    .callback-bt img {
+        width: 40px; 
+        height: 40px;
+    }
+}
+
+
 @media (max-width: 700px) {
     .callback-bt {
         height: 58px;
@@ -63,6 +78,7 @@
         height: 30px;
     }
 }
+
 
 @media (max-width: 540px) {
     .callback-bt {

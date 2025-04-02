@@ -93,6 +93,72 @@
 }
 
 
+
+@media (min-width: 1725px) {
+    .request {
+        padding: 120px 0px;
+    }
+
+    .request__container {
+        max-width: 1725px;
+        padding: 80px 110px;
+        gap: 140px;
+    }
+
+    .request__title {
+        font-size: 56px;
+        line-height: 125%;
+        padding-bottom: 32px;
+        width: 700px;
+    }
+
+    .request__form {
+        gap: 32px;
+    }
+    
+    .request__form-input {
+        width: 500px;
+        font-size: 24px;
+        padding: 24px 16px;
+    }
+    
+    .request__form-input--comment::placeholder, .request__form-input--tel::placeholder {
+        font-size: 24px;
+    }
+
+    .request__form-button {
+        width: 500px;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 32px 125px;
+    }
+
+    .request__images {
+        gap: 16px;
+        height: 450px;
+    }
+    
+    .request__images-column {
+        gap: 24px;
+    }
+
+    .request__images-first {
+        width: 280px;
+        height: 230px;
+    }
+    
+    .request__images-second {
+        width: 286px;
+        height: 229px;
+    }
+    
+    .request__images-third {
+        width: 300px;
+        height: 455px;
+    } 
+}
+
+
 @media (max-width: 1299px) {
     .request__container {
         max-width: 1100px;
@@ -156,6 +222,7 @@
     }
 }
 
+
 @media (max-width: 900px) {
     .request {
         padding: 64px 0; 
@@ -171,6 +238,7 @@
         padding-bottom: 32px;
     }
 }
+
 
 @media (max-width: 700px) {
     .request__container {
@@ -192,7 +260,7 @@
     .request__form-input {
         padding: 16px 12px;
         border: 1px solid rgba(35, 37, 54, 0.5);
-        color: var(--main-color);
+        color: var(--color-dark);
     }
     
     .request__form-input--comment::placeholder, .request__form-input--tel::placeholder {
@@ -209,6 +277,7 @@
         font-weight: 500;
     }
 }
+
 
 @media (max-width: 540px) {
     .request {

@@ -59,6 +59,36 @@
 }
 
 
+
+@media (min-width: 1725px) {
+    .modal__content {
+        max-width: 600px;
+    }
+    
+    .modal__content-info img {
+        padding-bottom: 17px;
+    }
+    
+    .modal__content-info p {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 12px;
+    }
+    
+    .modal__content-info h2 {
+        font-size: 32px;
+        line-height: 32px;
+        padding-bottom: 29px;
+    }
+    
+    .modal__close {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 12px 29px;
+    }
+}
+
+
 @media (max-width: 540px) {
     .modal__content-info img {
         width: 55px;
