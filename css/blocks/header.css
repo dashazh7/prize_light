@@ -199,7 +199,6 @@
     cursor: pointer;
 }
 
-
 .header__services:hover .header__services-window {
     display: flex;
 }
@@ -349,63 +348,58 @@
 
 
 @media (max-width: 900px) {
-    .header__request {
-        display: none;
-    }
-
-    .header__window {
-        left: -50px;
-        width: 200px;
-        padding: 16px 12px;
-        gap: 10px;
-    }
-}
-
-
-@media (max-width: 700px) {
-    .header {
-        margin-top: 0px;
-        width: 100%;
-        background-color: var(--accent);
-        padding-bottom: 24px;
-    }
-
     .header__navigation {
-        background-color: var(--accent);
-        border: none;
-        border-radius: 0px;
-        padding: 8px 0px;
-    }
-
-    .header__menu {
-        display: none;
-    }
-
-    .header__menu {
-        gap: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 20px;
+        width: 700px;
     }
     
-    .header__menu a {
-        font-size: 10px;
+    .header__logo {
+        order: 1;
+    }
+    
+    .header__menu {
+        order: 2; 
+    }
+    
+    .header__adaptation-request {
+        order: 3;
+    }
+    
+    .header__contacts {
+        display: none;
+    }
+
+    .header__adaptation-request {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px; 
+        height: 35px; 
+        background-color: white; 
+        border-radius: 50%; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-decoration: none; 
     }
 }
 
 
-@media (max-width: 700px) {
-    .header {
-        margin-top: 0px;
-        width: 100%;
-        background-color: var(--accent);
-        padding-bottom: 0px;
-    }
-
+@media (max-width: 740px) {
     .header__navigation {
-        background-color: var(--accent);
-        border: none;
-        border-radius: 0px;
+        width: 500px;
     }
 
-    .header__logo p {
+    .header__menu {
         display: none;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .header__navigation {
+        width: 350px;
+        padding: 8px 20px;
     }
 }

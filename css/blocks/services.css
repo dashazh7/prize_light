@@ -146,6 +146,10 @@
   background: none !important;
 }
 
+.header__adaptation-request {
+  display: none;
+}
+
 
 
 @media (min-width: 1725px) and (max-width: 1765px) {
@@ -348,7 +352,7 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 740px) {
   .services {
     padding: 40px 0;
   }

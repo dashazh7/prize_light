@@ -113,57 +113,65 @@
                     </a>
                 </div>
 
+                <a class="header__adaptation-request" href="">
+                    <img src="./images/call-adaptation.svg" alt="">
+                </a>
             </nav>
         </div>
     </header>
     
     <main>
          <!-- О нас -->
-        <div class="about-us__wrapper">
-            <section class="about-us" id="about">
-                    <div class="container">
-                        <div class="about-us__content">
-                            <div class="about-us__info">
-                                <h1 class="about-us__title">Какой-то текст какой-то текст какой-то</h1>
-                                <p class="about-us__paragraph">Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст</p>
-                                <div class="about-us__statistics">
-                                    <div class="about-us__stat-item1">
-                                        <h3 class="about-us__stat-value">30</h3>
-                                        <p class="about-us__stat-label">Лет опыта</p>
-                                    </div>
-                                    <div class="about-us__stat-item2">
-                                        <h3 class="about-us__stat-value">400+</h3>
-                                        <p class="about-us__stat-label">Различных проектов</p>
-                                    </div>
-                                    <div class="about-us__stat-item3">
-                                        <h3 class="about-us__stat-value">90%</h3>
-                                        <p class="about-us__stat-label">Клиентов сотрудничают повторно</p>
-                                    </div>
-                                </div>
+        <section class="about-us" id="about">
+            <div class="container">
+                <div class="about-us__content">
+                    <div class="about-us__info">
+                        <h1 class="about-us__title">Какой-то текст какой-то текст какой-то</h1>
+                        <p class="about-us__paragraph">Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст</p>
+                        <div class="about-us__adaptation-image">
+                            <img src="./images/about-us/about-us-adaptation.png" alt="">
+                        </div>
+                        <div class="about-us__statistics">
+                            <div class="about-us__stat-item1">
+                                <h3 class="about-us__stat-value">30</h3>
+                                <p class="about-us__stat-label">Лет опыта</p>
                             </div>
-        
-                            <div class="about-us__image">
-                                <img src="./images/about-us/about-us.png" alt="">
+                            <div class="about-us__stat-item2">
+                                <h3 class="about-us__stat-value">400+</h3>
+                                <p class="about-us__stat-label">Различных проектов</p>
+                            </div>
+                            <div class="about-us__stat-item3">
+                                <h3 class="about-us__stat-value">90%</h3>
+                                <p class="about-us__stat-label">Клиентов сотрудничают повторно</p>
                             </div>
                         </div>
-
-                        <div class="about-us__button">
-                            <a href="#request">Связаться с нами</a>
-                        </div>
+                    </div>
         
-                        <div class="about-us__clients">
-                            <h3 class="about-us__clients-title">Мы работаем с</h3>
-                            <div class="about-us__clients-logos">
-                                <img src="./images/about-us/logo_clients.svg">
-                                <img src="./images/about-us/logo_clients.svg">
-                                <img src="./images/about-us/logo_clients.svg">
-                                <img src="./images/about-us/logo_clients.svg">
-                                <img src="./images/about-us/logo_clients.svg">
-                            </div>
+                    <div class="about-us__image">
+                        <img src="./images/about-us/about-us.png" alt="">
                     </div>
                 </div>
-            </section>
-        </div>
+        
+                <div class="about-us__clients">
+                    <h3 class="about-us__clients-title">Мы работаем с</h3>
+                    <div class="about-us__clients-logos-wrapper">
+                        <div class="about-us__clients-logos running-line">
+                            <img src="./images/about-us/logo_clients.svg">
+                            <img src="./images/about-us/logo_clients.svg">
+                            <img src="./images/about-us/logo_clients.svg">
+                            <img src="./images/about-us/logo_clients.svg">
+                            <img src="./images/about-us/logo_clients.svg">
+
+                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
+                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
+                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
+                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
+                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
          <!-- Услуги -->
         <section class="services" id="services">

@@ -240,7 +240,7 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 740px) {
     .request__container {
         max-width: none;
         width: 100%;

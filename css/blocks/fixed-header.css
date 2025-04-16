@@ -95,3 +95,9 @@
         line-height: 16px;
     }
 }
+
+@media (max-width: 740px) {
+    .fixed__header {
+        display: none;
+    }
+}
