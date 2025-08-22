@@ -65,59 +65,53 @@
     <!-- Шапка -->
     <header class="header">
         <div class="container">
-            <nav class="header__navigation">
-                <ul class="header__menu">
-                    <li><a href="#about">О нас</a></li>
-                    <li class="header__services">
-                        <a class="header__menu-window">
-                            Услуги
-                            <img id="ServicesDropdownToggle" src="./images/header/expand_more.svg" alt="">
-                        </a>
-                        <div class="header__services-window">
-                            <a href="#service1" data-slide-to="0">Услуга 1</a>
-                            <a href="#service2" data-slide-to="1">Услуга 2</a>
-                            <a href="#service3" data-slide-to="2">Услуга 3</a>
-                            <a href="#service4" data-slide-to="3">Услуга 4</a>
-                            <a href="#service5" data-slide-to="4">Услуга 5</a>
-                        </div>
-                    </li>
-
-                    <li><a href="#projects">Проекты</a></li>
-                    <li><a href="#advantages">Почему мы</a></li>
-                    <li><a href="#achievements">Достижения</a></li>
-                </ul>
-
-                <div class="header__logo">
-                    <img src="./images/logotype.svg" alt="">
+            <div class="header__info">
+                <div class="header__info-logo">
+                    <img src="./images/header/logotype.png" alt="Логотип">
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
-    
-                <div class="header__contacts">
-                    <a class="header__phone">
-                        +7 (952) 689-12-44
+                <div class="header__info-contact">
+                    <a class="header__email">
+                        priz72@mail.com
                         <img id="dropdownToggle" src="./images/header/expand_more.svg" alt="">
                     </a>
 
                     <div class="header__window">
-                        <a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a>
-                        <p>Бухгалтер<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
-                        <p>Главный инженер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
-                        <a class="header__window-button" href="#request">Связаться с нами</a>
+                        <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
+                        <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                        <a class="header__window-button" href="#request">Оставить заявку</a>
                         <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
                         <p>Режим работы<br><a href="">Пн-Пт: 9:00-18:00</a></p>
                     </div>
 
                     <a class="header__request" href="#request">
-                        Связаться с нами 
+                        Оставить заявку
                     </a>
                 </div>
+            </div>
 
-                <a class="header__adaptation-request" href="">
-                    <img src="./images/call-adaptation.svg" alt="">
-                </a>
-            </nav>
-        </div>
+            <div class="header__navigation">
+                <ul class="header__menu">
+                    <li class="header__about">
+                        <a class="header__menu-window">
+                            О нас
+                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="">
+                        </a>
+                        <div class="header__about-window">
+                            <a href="" data-slide-to="0">История</a>
+                            <a href="" data-slide-to="1">Оборудование</a>
+                        </div>
+                    </li>
+                    <li><a href="">Геодезия</a></li>
+                    <li><a href="">Геология</a></li>
+                    <li><a href="">Экология</a></li>
+                    <li><a href="">Дополнительные услуги</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#advantages">Почему мы</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
+                </ul>
+            </div>
     </header>
     
     <main>
@@ -149,25 +143,6 @@
         
                     <div class="about-us__image">
                         <img src="./images/about-us/about-us.png" alt="">
-                    </div>
-                </div>
-        
-                <div class="about-us__clients">
-                    <h3 class="about-us__clients-title">Мы работаем с</h3>
-                    <div class="about-us__clients-logos-wrapper">
-                        <div class="about-us__clients-logos running-line">
-                            <img src="./images/about-us/logo_clients.svg">
-                            <img src="./images/about-us/logo_clients.svg">
-                            <img src="./images/about-us/logo_clients.svg">
-                            <img src="./images/about-us/logo_clients.svg">
-                            <img src="./images/about-us/logo_clients.svg">
-
-                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
-                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
-                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
-                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
-                            <img class="duplicate-image" src="./images/about-us/logo_clients.svg">
-                        </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Если это не файл и не папка
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Всё перенаправляем в index.php?page=...
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]

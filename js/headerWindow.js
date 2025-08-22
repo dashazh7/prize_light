@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.classList.toggle("active");
 
         if (dropdown.classList.contains("active")) {
-            toggleButton.src = "./images/header/expand_less.png"; 
+            toggleButton.src = "./images/header/expand_less.svg"; 
         } else {
             toggleButton.src = "./images/header/expand_more.svg";
         }
