@@ -19,3 +19,6 @@
 
 @import "./blocks/callback-bt.css";
 @import "./blocks/modal-window.css";
+
+@import "./blocks/history.css";
+@import "./blocks/equipment.css";

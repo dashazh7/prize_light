@@ -1,0 +1,41 @@
+.equipment {
+    padding-bottom: 60px;
+}
+
+.equipment__title {
+font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+  padding-bottom: 8px;
+}
+
+.equipment__links {
+    display: flex;
+    gap: 6px;
+}
+
+.equipment__links a, .equipment__links p, .equipment__links span {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-dark);
+    opacity: 60%;
+}
+
+.equipment__links a:hover {
+    color: var(--accent);
+    opacity: 100%;
+}
+
+.equipment__text {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.equipment__text ol {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px; 
+}

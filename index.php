@@ -99,8 +99,8 @@
                             <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="">
                         </a>
                         <div class="header__about-window">
-                            <a href="" data-slide-to="0">История</a>
-                            <a href="" data-slide-to="1">Оборудование</a>
+                            <a href="equipment.php" data-slide-to="0">Материально-техническая база</a>
+                            <a href="history.php" data-slide-to="1">История</a>
                         </div>
                     </li>
                     <li><a href="">Геодезия</a></li>
@@ -120,23 +120,23 @@
             <div class="container">
                 <div class="about-us__content">
                     <div class="about-us__info">
-                        <h1 class="about-us__title">Какой-то текст какой-то текст какой-то</h1>
-                        <p class="about-us__paragraph">Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то текст</p>
+                        <h1 class="about-us__title">Более 30 лет опыта инженерных изысканий</h1>
+                        <p class="about-us__paragraph">Мы проводим комплексные исследования грунтов, экологии и геологии для безопасного строительства объектов любой сложности</p>
                         <div class="about-us__adaptation-image">
                             <img src="./images/about-us/about-us-adaptation.png" alt="">
                         </div>
                         <div class="about-us__statistics">
                             <div class="about-us__stat-item1">
-                                <h3 class="about-us__stat-value">30</h3>
-                                <p class="about-us__stat-label">Лет опыта</p>
+                                <h3 class="about-us__stat-value">34</h3>
+                                <p class="about-us__stat-label">Года в строительной индустрии</p>
                             </div>
                             <div class="about-us__stat-item2">
-                                <h3 class="about-us__stat-value">400+</h3>
-                                <p class="about-us__stat-label">Различных проектов</p>
+                                <h3 class="about-us__stat-value">6</h3>
+                                <p class="about-us__stat-label">Буровых установок</p>
                             </div>
                             <div class="about-us__stat-item3">
-                                <h3 class="about-us__stat-value">90%</h3>
-                                <p class="about-us__stat-label">Клиентов сотрудничают повторно</p>
+                                <h3 class="about-us__stat-value">100%</h3>
+                                <p class="about-us__stat-label">Гарантия получения экспертизы</p>
                             </div>
                         </div>
                     </div>
