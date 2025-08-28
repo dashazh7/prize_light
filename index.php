@@ -103,10 +103,10 @@
                             <a href="history.php" data-slide-to="1">История</a>
                         </div>
                     </li>
-                    <li><a href="">Геодезия</a></li>
-                    <li><a href="">Геология</a></li>
-                    <li><a href="">Экология</a></li>
-                    <li><a href="">Дополнительные услуги</a></li>
+                    <li><a href="#service1" data-slide-to="0">Геодезия</a></li>
+                    <li><a href="#service2" data-slide-to="1">Геология</a></li>
+                    <li><a href="#service3" data-slide-to="2">Экология</a></li>
+                    <li><a href="#service4" data-slide-to="3">Дополнительные услуги</a></li>
                     <li><a href="#projects">Проекты</a></li>
                     <li><a href="#advantages">Почему мы</a></li>
                     <li><a href="#achievements">Достижения</a></li>
@@ -209,36 +209,6 @@
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
                                 <h2 class="services__card-title">Услуга 4</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
-                            </div>
-                            <div class="services__card-hidden">
-                                <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" id="service5">
-                        <div class="services__card">
-                            <img src="./images/services/service1.png">
-                            <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 5</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
-                            </div>
-                            <div class="services__card-hidden">
-                                <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" id="service6">
-                        <div class="services__card">
-                            <img src="./images/services/service1.png">
-                            <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 6</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
