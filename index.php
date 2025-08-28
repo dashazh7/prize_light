@@ -44,17 +44,17 @@
         <div class="container">
             <nav class="fixed__header-navigation">
                 <div class="fixed__header-logo">
-                    <img src="./images/logotype.svg" alt="">
+                    <a href="index.php"><img src="./images/logo_white.svg" alt=""></a>
                     <div class="fixed__header-logo--text">
                         <h1>Инженерные изыскания в строительстве с 1991</h1>
                         <p>С нами надежнее</p>
                     </div>
                 </div>
                 <div class="fixed__header-contacts">
-                    <a class="fixed__header-contacts--number" href="">+7 (952) 689-12-44</a>
-                    <a class="fixed__header-contacts--email" href="">example@yandex.ru</a>
+                    <a class="fixed__header-contacts--number" href="tel:+79526891244">+7 (952) 689-12-44</a>
+                    <a class="fixed__header-contacts--email" href="mailto:example@yandex.ru">example@yandex.ru</a>
                     <a class="fixed__header-contacts--btn" href="#request">
-                        Связаться с нами 
+                        Оставить заявку
                     </a>
                 </div>
             </nav>
@@ -67,7 +67,7 @@
         <div class="container">
             <div class="header__info">
                 <div class="header__info-logo">
-                    <img src="./images/header/logotype.png" alt="Логотип">
+                    <img src="./images/logo_blue.svg" alt="Логотип">
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
                 <div class="header__info-contact">
@@ -82,7 +82,7 @@
                         <a class="header__window-button" href="#request">Оставить заявку</a>
                         <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
-                        <p>Режим работы<br><a href="">Пн-Пт: 9:00-18:00</a></p>
+                        <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
                     </div>
 
                     <a class="header__request" href="#request">
@@ -160,14 +160,17 @@
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 1</h2>
+                                <h2 class="services__card-title">Геодезия</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
                                 <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
+                                <p class="services__card-hidden-text">Создание опорных геодезических сетей</p>
+                                <p class="services__card-hidden-text">Создание и обновление инженерно-топографических планов в масштабах 1:200 – 1:5000, в том числе в цифровой форме, съемка подземных коммуникаций и сооружений</p>
+                                <p class="services__card-hidden-text">Геодезические наблюдения за деформациями и осадками зданий и сооружений, движениями земной поверхности и опасными природными процессами</p>
+                                <p class="services__card-hidden-text">Трассирование линейных объектов</p>
+                                <p class="services__card-hidden-text">Инженерно-гидрографические работы</p>
+                                <p class="services__card-hidden-text">Специальные геодезические и топографические работы при строительстве и реконструкции зданий и сооружений</p>
                             </div>
                         </div>
                     </div>
@@ -435,7 +438,7 @@
         <div class="container">
             <div class="footer__navigation">
                 <a class="footer__logo" href="">
-                    <img class="footer__logo-img" src="./images/logotype.svg" alt="">
+                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="">
                     ООО "ПРИЗ"
                 </a>
                 <ul class="footer__menu">

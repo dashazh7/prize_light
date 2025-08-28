@@ -18,7 +18,7 @@
 
 .header__info-logo img {
     width: 40px;
-    height: 46px;
+    height: 45px;
 }
 
 .header__info-logo p {
@@ -47,6 +47,7 @@
     line-height: 18px;
     letter-spacing: 0.5px;
     color: var(--accent);
+    cursor: pointer;
 }
 
 .header__request {
@@ -159,9 +160,11 @@
 }
 
 .header__about-window a:hover {
-    background: #f5f5f5;
-    color: var(--color-dark);
+    color: var(--accent);
+    opacity: 100%;
 }
+
+
 
 /* Раскрывающийся список связи */
 .header__window {
@@ -197,6 +200,15 @@
     font-weight: 400;
     color: #000000;
     text-decoration: none;
+}
+
+.header__window a:hover {
+    color: var(--accent);
+}
+
+.no-cursor {
+    cursor: default;      
+    pointer-events: none; 
 }
 
 .header__window p {

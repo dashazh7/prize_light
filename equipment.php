@@ -11,7 +11,7 @@
         <div class="container">
             <div class="header__info">
                 <div class="header__info-logo">
-                    <a href="index.php"><img src="./images/header/logotype.png" alt="Логотип"></a>
+                    <a href="index.php"><img src="./images/logo_blue.svg" alt="Логотип"></a>
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
                 <div class="header__info-contact">

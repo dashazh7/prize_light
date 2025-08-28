@@ -20,39 +20,49 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 0px;
+    padding: 16px 0px;
 }
 
 .fixed__header-logo {
     display: flex;
-    gap: 16px;
+    gap: 8px;
     align-items: center;
 }
 
 .fixed__header-logo img {
-    width: 52px;
+    height: 46px;
+    width: 42px;
 }
 
 .fixed__header-logo--text {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
 }
 
 .fixed__header-contacts {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .fixed__header-contacts--number, .fixed__header-contacts--email {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
     color: var(--color-light);
+}
+
+.fixed__header-contacts--number:hover, .fixed__header-contacts--email:hover {
+    color: #FFFFFF;
+    opacity: 60%;
 }
 
 .fixed__header-contacts--btn {
     display: inline-block;
-    padding: 8px 13px; 
+    padding: 9px 18px; 
     border: 1px solid #AFD7F4; 
     border-radius: 20px; 
     background-color: #FFFFFF; 
