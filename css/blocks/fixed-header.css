@@ -80,31 +80,31 @@
 
 @media (min-width: 1725px) {
     .fixed__header-navigation {
-        padding: 24px 0px;
+        padding: 16px 0px;
     }
 
     .fixed__header-logo img {
-        height: 70px;
-        width: 74px;
+        height: 65px;
+        width: 69px;
     }
 
     .fixed__header-logo--text {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
     .fixed__header-contacts {
-        gap: 24px;
+        gap: 16px;
     }
     
     .fixed__header-contacts--number, .fixed__header-contacts--email {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .fixed__header-contacts--btn {
         padding: 12px 18px; 
-        font-size: 19px;
-        line-height: 19px;
+        font-size: 15px;
+        line-height: 15px;
     }
 }
 
