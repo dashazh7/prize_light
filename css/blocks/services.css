@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 276px;
+  max-width: 269px;
 }
   
 .services__card-title {
@@ -76,7 +76,7 @@
   
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 8px;
   padding: 30px;
 }
 
@@ -92,18 +92,18 @@
 }
   
 .services__card-hidden-title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 45px;
   color: var(--color-light);
 }
   
 .services__card-hidden-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 125%;
   color: var(--color-light);
-  max-width: 269px;
+  max-width: 390px;
 }
 
 /* Карусель */

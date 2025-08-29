@@ -178,14 +178,17 @@
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 2</h2>
+                                <h2 class="services__card-title">Геология</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
-                                <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
+                                <h2 class="services__card-hidden-title">Геология</h2>
+                                <p class="services__card-hidden-text">Создание опорных геодезических сетей</p>
+                                <p class="services__card-hidden-text">Создание и обновление инженерно-топографических планов в масштабах 1:200 – 1:5000, в том числе в цифровой форме, съемка подземных коммуникаций и сооружений</p>
+                                <p class="services__card-hidden-text">Геодезические наблюдения за деформациями и осадками зданий и сооружений, движениями земной поверхности и опасными природными процессами</p>
+                                <p class="services__card-hidden-text">Трассирование линейных объектов</p>
+                                <p class="services__card-hidden-text">Инженерно-гидрографические работы</p>
+                                <p class="services__card-hidden-text">Специальные геодезические и топографические работы при строительстве и реконструкции зданий и сооружений</p>
                             </div>
                         </div>
                     </div>
@@ -193,14 +196,14 @@
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 3</h2>
+                                <h2 class="services__card-title">Экология</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
-                                <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
+                                <h2 class="services__card-hidden-title">Экология</h2>
+                                <p class="services__card-hidden-text">Инженерно-экологическая съемка территории</p>
+                                <p class="services__card-hidden-text">Исследования химического загрязнения почвогрунтов, поверхностных и подземных вод, атмосферного воздуха, источников загрязнения</p>
+                                <p class="services__card-hidden-text">Исследования и оценка физических воздействий и радиационной обстановки на территории</p>
                             </div>
                         </div>
                     </div>
@@ -208,14 +211,13 @@
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
-                                <h2 class="services__card-title">Услуга 4</h2>
+                                <h2 class="services__card-title">Дополнительные услуги</h2>
                                 <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
-                                <h2 class="services__card-hidden-title">Геодезия</h2>
-                                <p class="services__card-hidden-text">Более 125 выполненных проектов</p>
-                                <p class="services__card-hidden-text">Испытание свай статической вдавливающей нагрузкой</p>
-                                <p class="services__card-hidden-text">Испытание свай статической выдёргивающей нагрузкой</p>
+                                <h2 class="services__card-hidden-title">Дополнительные услуги</h2>
+                                <p class="services__card-hidden-text">Испытания грунтов статической нагрузкой на сваю</p>
+                                <p class="services__card-hidden-text">Штамповые испытания грунтов</p>
                             </div>
                         </div>
                     </div>
