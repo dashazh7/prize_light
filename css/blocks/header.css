@@ -97,30 +97,13 @@
     opacity: 60%;
 }
 
+/* Раскрывающийся список услуг */
 .header__menu-window {
     display: inline-flex;
     align-items: center;
     gap: 0px;
 }
 
-.header__logo {
-    display: flex;
-    gap: 11px;
-    align-items: center;
-}
-
-.header__logo p {
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 10px;
-    color: #FFFFFF;
-    max-width: 116px;
-}
-
-
-
-
-/* Раскрывающийся список услуг */
 .header__about {
     position: relative;
 }
@@ -163,8 +146,6 @@
     color: var(--accent);
     opacity: 100%;
 }
-
-
 
 /* Раскрывающийся список связи */
 .header__window {
@@ -253,71 +234,88 @@
         padding-bottom: 70px;
     }
 
-    .header__navigation {
-        padding: 17px 35px;
+    .header__info {
+        margin-bottom: 14px;
     }
 
-    .header__menu a {
-        font-size: 20px;
+    .header__info-logo {
+        gap: 8px;
     }
 
-    .header__menu-window img {
-        width: 22px;
-        height: 21px;
+    .header__info-logo img {
+        width: 55px;
+        height: 60px;
     }
 
-    .header__logo img {
-        width: 42px;
-        height: 47px;
-    }
-
-    .header__logo p {
+    .header__info-logo p {
         font-size: 14px;
         line-height: 14px;
-        max-width: 195px;
+        max-width: 205px;
     }
 
-    .header__phone {
-        font-size: 20px;
-        line-height: 18px;
+    .header__info-contact {
+        gap: 24px;
     }
 
-    .header__phone img {
-        width: 22px;
-        height: 21px;
+    .header__email {
+        font-size: 16px;
+    }
+
+    .header__email img {
+        width: 24px;
+        height: 25px;
     }
 
     .header__request {
-        padding: 13px 18px; 
-        font-size: 14px;
+        padding: 13px 18px;
+        font-size: 16px;
+        line-height: 16px;
     }
-    
-    .header__services-window {
-        padding: 15px 13px;
+
+    .header__navigation {
+        padding: 26px 0px;
     }
-    
-    .header__services-window a {
-        font-size: 20px;
+
+    .header__menu {
+        gap: 72px;
+    }
+
+    .header__menu a {
+        font-size: 18px;
+    }
+
+    .header__about-window {
+        padding: 16px 14px;
+        min-width: 340px;
+    }
+
+    .header__about-window a {
+        font-size: 18px;
         line-height: 20px;
-        padding: 16px;
+        padding: 8px;
+    }
+
+    .header__menu-window img {
+        width: 24px;
+        height: 25px;
     }
     
     .header__window {
         width: 350px;
         padding: 24px 16px;
-        gap: 20px;
+        gap: 24px;
     }
     
     .header__window a {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 17px;
+        line-height: 17px;
     }
     
     .header__window p {
         flex-direction: column;
-        gap: 6px;
-        font-size: 15px;
-        line-height: 15px;
+        gap: 8px;
+        font-size: 14px;
+        line-height: 14px;
     }
     
     .header__window-button {
@@ -333,38 +331,38 @@
     .header {
         padding-bottom: 40px;
     }
+
+    .header__menu {
+        gap: 40px;
+    }
   }
 
 
 @media (max-width: 1100px) {
-    .header__menu {
-        gap: 16px;
+    .header__info {
+        margin-bottom: 8px;
     }
-    
-    .header__menu a {
+
+    .header__info-logo img {
+        width: 35px;
+        height: 40px;
+    }
+
+    .header__info-logo p {
         font-size: 10px;
+        font-weight: 600;
+        line-height: 10px;
+        color: var(--accent);
+        max-width: 155px;
     }
 
-    .header__logo {
-        gap: 4px;
+    .header__info-contact {
+        gap: 10px;
     }
 
-    .header__logo img {
-        width: 32px;
-        height: 35px;
-    }
-    
-    .header__logo p {
-        font-size: 8px;
-        max-width: 100px;
-    }
-
-    .header__phone {    
-        font-size: 10px;
-    }
-
-    .header__phone img {
-        width: 16px;
+    .header__email {
+        font-size: 12px;
+        line-height: 12px;
     }
 
     .header__request {
@@ -372,76 +370,57 @@
         font-size: 10px;
     }
 
+    .header__navigation {
+        padding: 16px 0px;
+    }   
+
+    .header__menu {
+        gap: 24px;
+    }
+
+    .header__menu a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .header__about-window {
+        padding: 14px 12px;
+        min-width: 250px;
+    }
+
+    .header__about-window a {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 4px;
+    }
+
+    .header__menu-window img {
+        width: 19px;
+        height: 18px;
+    }
+
     .header__window {
-        width: 230px;
-        padding: 16px 12px;
-        gap: 10px;
+        width: 240px;
+        padding: 24px 16px;
+        gap: 16px;
     }
     
     .header__window a {
-        font-size: 10px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 12px;
     }
     
     .header__window p {
-        gap: 2px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .header__navigation {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 8px 20px;
-        width: 700px;
+        flex-direction: column;
+        gap: 6px;
+        font-size: 10px;
+        line-height: 10px;
     }
     
-    .header__logo {
-        order: 1;
-    }
-    
-    .header__menu {
-        order: 2; 
-    }
-    
-    .header__adaptation-request {
-        order: 3;
-    }
-    
-    .header__contacts {
-        display: none;
-    }
-
-    .header__adaptation-request {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 35px; 
-        height: 35px; 
-        background-color: white; 
-        border-radius: 50%; 
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-decoration: none; 
-    }
-}
-
-
-@media (max-width: 740px) {
-    .header__navigation {
-        width: 500px;
-    }
-
-    .header__menu {
-        display: none;
-    }
-}
-
-
-@media (max-width: 540px) {
-    .header__navigation {
-        width: 350px;
-        padding: 8px 20px;
+    .header__window-button {
+        width: 124px;
+        height: 32px;
+        font-size: 10px !important; 
+        line-height: 12px !important;
     }
 }
