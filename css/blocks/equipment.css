@@ -39,3 +39,27 @@ font-size: 40px;
     gap: 16px;
     padding-left: 20px; 
 }
+
+@media (min-width: 1725px) {
+    .equipment__title {
+        font-size: 54px;
+        padding-bottom: 16px;
+    }
+
+    .equipment__links {
+        gap: 8px;
+    }
+
+    .equipment__links a, .equipment__links p, .equipment__links span {
+        font-size: 24px;
+    }
+
+    .equipment__text {
+        font-size: 24px;
+        gap: 24px;
+    }
+
+    .equipment__text ol {
+        gap: 24px;
+    }
+}
