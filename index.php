@@ -112,8 +112,69 @@
                     <li><a href="#achievements">Достижения</a></li>
                 </ul>
             </div>
+        </div> 
     </header>
-    
+
+    <!-- Шапка для устройств меньше 900px -->
+    <header class="header__adaptation">
+        <div class="container">
+            <div class="header__adaptation-navigation">
+                <div class="navigation__menu">
+                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Меню">
+                    <!-- Раскрывающееся меню -->
+                    <div class="navigation__menu-window">
+                        <div class="screens-wrapper">
+                            
+                            <!-- Первый экран -->
+                            <div class="menu-screen">
+                                <div class="menu-about-link">
+                                    <a href="#">О нас</a>
+                                    <img src="./images/ArrowRight.svg" alt="">
+                                </div>
+                                <a href="#service1" data-slide-to="0">Геодезия</a>
+                                <a href="#service2" data-slide-to="1">Геология</a>
+                                <a href="#service3" data-slide-to="2">Экология</a>
+                                <a href="#service4" data-slide-to="3">Дополнительные услуги</a>
+                                <a href="#projects">Проекты</a>
+                                <a href="#advantages">Почему мы</a>
+                                <a href="#achievements">Достижения</a>
+                            </div>
+
+                            <!-- Второй экран -->
+                            <div class="menu-screen">
+                                <a href="#" class="menu-back">
+                                    <img src="./images/ArrowLeft2.svg" alt="">
+                                </a>
+                                <a href="equipment.php">Материально-техническая база</a>
+                                <a href="history.php">История</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navigation__menu-logo">
+                        <img src="./images/logo_white.svg" alt="Логотип">
+                        <p>Инженерные изыскания в строительстве с 1991</p>
+                    </div>
+                </div>
+
+                <div class="navigation__contact">
+                    <div class="contact-wrapper">
+                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Позвонить">
+                        <!-- Раскрывающееся окно контактов -->
+                        <div class="navigation__contact-window">
+                            <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
+                            <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                            <a class="navigation__contact-window--button" href="#request">Оставить заявку</a>
+                            <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
+                            <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а</a></p>
+                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <main>
          <!-- О нас -->
         <section class="about-us" id="about">
@@ -460,29 +521,13 @@
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
     <script src="./js/headerWindow.js"></script>
-    <script src="./js/servicesWindow.js"></script>
+    <script src="./js/aboutWindow.js"></script>
     <script src="./js/owlCarousel.js"></script>
     <script src="./js/copyToClipboard.js"></script>
+    <script src="./js/fixedHeader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-    const header = document.querySelector(".fixed__header");
-    const aboutSection = document.querySelector("#about");
-
-    const observer = new IntersectionObserver(entries => {
-        if (entries[0].isIntersecting) {
-            header.classList.remove("visible");
-        } else {
-            header.classList.add("visible");
-        }
-    }, { threshold: 0.1 });
-
-    observer.observe(aboutSection);
-});
-
-    </script>
-    
+    <script src="./js/menuWindowMobile.js"></script>
+    <script src="./js/contactWindowMobile.js"></script>
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>

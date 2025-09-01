@@ -212,45 +212,53 @@
     .about-us__title {
         font-size: 42px;
         padding-bottom: 16px;
-        width: 700px;
+        width: 662px;
     }
     
     .about-us__paragraph {
         font-size: 16px;
-        padding-bottom: 36px;
-        width: 700px;
+        padding-bottom: 24px;
+        width: 662px;
     }
 
     .about-us__adaptation-image img {
-        max-width: 700px;
+        max-width: 662px;
         height: 340px;
     }
 
     .about-us__adaptation-image {
-        padding-bottom: 36px;
+        padding-bottom: 24px;
     }
 
     .about-us__statistics {
-        gap: 36px;
-        padding-bottom: 76px;
+        gap: 24px;
+        padding-bottom: 48px;
     }
 
     .about-us__stat-value {
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 48px;
+        line-height: 48px;
     }
     
     .about-us__stat-label {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
-    .about-us__clients {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0px;
+    .about-us__stat-item1 .about-us__stat-label, .about-us__stat-item3 .about-us__stat-label  {
+        width: 170px;
     }
+
+    .about-us__stat-item2 .about-us__stat-label {
+        width: 87px;
+    }
+
+    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+        padding: 17px 20px; 
+        gap: 4px;
+    }
+
+
 }
 
 
