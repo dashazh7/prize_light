@@ -292,6 +292,21 @@
     .contact-icon {
         cursor: pointer;
     }
+
+
+    .history {
+        padding-bottom: 48px;
+    }
+
+    .history__title {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 8px;
+    }
+
+    .history__text {
+        padding-top: 24px;
+    }
 }
 
 @media (max-width: 740px) {
@@ -344,6 +359,29 @@
         line-height: 10px !important; 
         padding: 12px 7px;
     }
+
+    .history {
+        padding-bottom: 32px;
+    }
+
+    .history__title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .history__text {
+        padding-top: 16px;
+        font-size: 14px;
+        gap: 12px;
+    }
+
+    .history__links a, .history__links p, .history__links span {
+        font-size: 14px;
+    }
+
+    .history__text ol {
+        gap: 12px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -372,5 +410,25 @@
     .contact-icon {
         width: 26px;
         height: 26px;
+    }
+
+    .history__title {
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 6px;
+    }
+
+    .history__text {
+        padding-top: 12px;
+        font-size: 12px;
+        gap: 12px;
+    }
+
+    .history__links a, .history__links p, .history__links span {
+        font-size: 12px;
+    }
+
+    .history__text ol {
+        gap: 12px;
     }
 }
