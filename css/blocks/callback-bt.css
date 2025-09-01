@@ -66,21 +66,7 @@
     }
 }
 
-
 @media (max-width: 740px) {
-    .callback-bt {
-        height: 58px;
-        width: 58px;
-    }
-
-    .callback-bt img {
-        width: 30px; 
-        height: 30px;
-    }
-}
-
-
-@media (max-width: 540px) {
     .callback-bt {
         display: none;
     }

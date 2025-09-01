@@ -196,6 +196,10 @@
 
 
 @media (max-width: 900px) {
+    .about-us {
+        padding-bottom: 48px;
+    }
+
     .about-us__image {
         display: none;
     }
@@ -232,7 +236,7 @@
 
     .about-us__statistics {
         gap: 24px;
-        padding-bottom: 48px;
+        padding-bottom: 0px;
     }
 
     .about-us__stat-value {
@@ -257,67 +261,62 @@
         padding: 17px 20px; 
         gap: 4px;
     }
-
-
 }
 
 
 @media (max-width: 740px) {
+    .about-us {
+        padding-bottom: 32px;
+    }
+
     .about-us__title {
         font-size: 36px;
         padding-bottom: 16px;
-        width: 500px;
+        width: 462px;
     }
     
     .about-us__paragraph {
-        padding-bottom: 32px;
-        width: 500px
+        padding-bottom: 24px;
+        width: 462px
     }
 
     .about-us__adaptation-image img {
-        max-width: 500px;
+        max-width: 462px;
         height: auto;
     }
 
     .about-us__adaptation-image {
-        padding-bottom: 32px;
+        padding-bottom: 24px;
     }
 
     .about-us__statistics {
-        gap: 32px;
-        padding-bottom: 54px;
+        gap: 16px;
+        padding-bottom: 0px;
     }
 
-    .duplicate-image {
-        display: block;
+    .about-us__stat-value {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .about-us__stat-label {
+        font-size: 14px;
+        line-height: 14px;
     }
 
-    .about-us__clients-logos-wrapper {
-        overflow: hidden;
-        width: 100%;
-        position: relative;
+    .about-us__stat-item1 .about-us__stat-label, .about-us__stat-item3 .about-us__stat-label  {
+        width: 120px;
     }
-    
-    .about-us__clients-logos.running-line {
-        display: flex;
-        gap: 20px;
-        animation: marquee 20s linear infinite;
-        width: max-content;
+
+    .about-us__stat-item2 .about-us__stat-label {
+        width: 120px;
     }
-    
-    .about-us__clients-logos.running-line img {
-        height: 70px;
-        flex-shrink: 0;
+
+    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+        padding: 16px 8px; 
+        gap: 4px;
     }
-    
-    @keyframes marquee {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-50%);
-        }
-    }
+
 }
 
 

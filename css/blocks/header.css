@@ -640,3 +640,55 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 740px) {
+     .header__adaptation {
+        margin-bottom: 32px;
+    }
+
+    .navigation__menu {
+        gap: 24px;
+    }
+
+    /* Раскрывающееся меню */
+    .navigation__menu-window {
+        width: 210px;
+    }
+
+    .menu-screen {
+        gap: 8px;
+        padding: 16px 24px;
+    }
+
+    .menu-screen a {
+        font-size: 12px;
+    }
+
+    .menu-about-link img {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+    }
+
+    .menu-back img {
+        height: 10px;
+        width: 10px;
+    }
+
+    /* Раскрывающееся окно контактов */
+    .navigation__contact-window {
+        width: 200px;
+    }
+
+    .navigation__contact-window a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .navigation__contact-window--button {
+        width: 110px;
+        font-size: 10px !important; 
+        line-height: 10px !important; 
+        padding: 12px 7px;
+    }
+}

@@ -394,6 +394,8 @@
   }
 
   .services__card-title {
+    font-size: 24px;
+    line-height: 24px;
     margin-bottom: 10px;
   }
   
@@ -408,6 +410,19 @@
     
   .services .owl-next {
     right: 120px; 
+  }
+
+  .services__card-hidden {
+    gap: 12px;
+  }
+
+  .services__card-hidden-title {
+    display: none;
+  }
+
+  .services__card-hidden-text {
+    font-size: 12px;
+    line-height: 12px;
   }
 }
 

@@ -319,6 +319,7 @@
     line-height: 24px;
     padding-bottom: 32px;
   }
+
   .projects__card {
     width: 450px;
     height: 350px;
@@ -328,7 +329,7 @@
   .projects .owl-carousel-container {
     max-width: 500px;
     padding: 0 19px;
-}
+  }
 
   .projects .owl-prev {
     left: -40px; 
@@ -336,6 +337,32 @@
     
   .projects .owl-next {
     right: -30px; 
+  }
+
+  .projects__card-title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+
+  .projects__card-paragraph {
+    font-size: 16px;
+  }
+
+  .projects__card-hidden {
+    gap: 12px;
+  }
+
+  .projects__card-hidden-title {
+    font-size: 24px;
+  }
+
+  .projects__card-hidden-text1 {
+    font-size: 16px;
+  }
+
+  .projects__card-hidden-text2 {
+    font-size: 14px;
   }
 }
 
