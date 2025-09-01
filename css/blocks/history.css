@@ -76,3 +76,301 @@
         gap: 24px;
     }
 }
+
+
+@media (min-width: 901px) {
+    .header__adaptation {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        display: none;
+    }
+
+    .header__adaptation {
+        display: block;
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+
+    .header__adaptation-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2A94E2;
+        border-radius: 20px;
+        padding: 8px 24px;
+    }
+
+    .navigation__menu {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        position: relative; 
+    }
+
+    .navigation__menu-img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .navigation__menu-logo {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .navigation__menu-logo img {
+        width: 38px;
+        height: 43px;
+    }
+
+    .navigation__menu-logo p {
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 500;
+        color: #fff;
+        max-width: 115px;
+    }
+
+    .contact-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Раскрывающееся меню */
+    .navigation__menu-window {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 250px;
+        background: white;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        border-radius: 4px;
+        overflow: hidden; 
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+        z-index: 100;
+    }
+
+    .navigation__menu-window.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .screens-wrapper {
+        display: flex;
+        width: 200%; 
+        transition: transform 0.3s ease;
+    }
+
+    .menu-screen {
+        width: 50%; 
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 24px 32px;
+    }
+
+    .menu-screen a {
+        text-decoration: none;
+        color: var(--color-dark, #000);
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .menu-screen a:hover {
+        color: var(--accent, #2A94E2);
+    }
+
+    .menu-back {
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .menu-about-link {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-about-link img {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+    }
+
+    .menu-back img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .contact-wrapper {
+        position: relative; 
+        display: inline-block;
+    }
+
+    /* Раскрывающееся окно контактов */
+    .navigation__contact-window {
+        position: absolute;
+        top: 100%; 
+        right: 0;
+        width: 250px;
+        background: white;
+        border-radius: 4px;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        padding: 20px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+        z-index: 200;
+    }
+
+    .navigation__contact-window.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .navigation__contact-window a {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .navigation__contact-window a:hover {
+        color: var(--accent, #2A94E2);
+    }
+
+    .no-cursor {
+        cursor: default;      
+        pointer-events: none; 
+    }
+
+    .navigation__contact-window p {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 8px;
+        line-height: 8px;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navigation__contact-window--button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 123px;
+        height: 28px;
+        background: var(--accent, #2A94E2);
+        color: #FFFFFF !important;
+        font-size: 10px !important; 
+        font-weight: 400 !important; 
+        line-height: 16px !important; 
+        letter-spacing: 0.5px !important;
+        padding: 15px 7px;
+        border-radius: 4px;
+        text-decoration: none;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .contact-icon {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 740px) {
+     .header__adaptation {
+        margin-bottom: 32px;
+    }
+
+    .navigation__menu {
+        gap: 24px;
+    }
+
+    /* Раскрывающееся меню */
+    .navigation__menu-window {
+        width: 210px;
+    }
+
+    .menu-screen {
+        gap: 8px;
+        padding: 16px 24px;
+    }
+
+    .menu-screen a {
+        font-size: 12px;
+    }
+
+    .menu-about-link img {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+    }
+
+    .menu-back img {
+        height: 10px;
+        width: 10px;
+    }
+
+    /* Раскрывающееся окно контактов */
+    .navigation__contact-window {
+        width: 200px;
+    }
+
+    .navigation__contact-window a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .navigation__contact-window--button {
+        width: 110px;
+        font-size: 10px !important; 
+        line-height: 10px !important; 
+        padding: 12px 7px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header__adaptation-navigation {
+        padding: 4px 16px;
+    }
+
+    .navigation__menu {
+        gap: 16px;
+    }
+
+    .navigation__menu-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navigation__menu-logo img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .navigation__menu-logo p {
+        display: none;
+    }
+
+    .contact-icon {
+        width: 26px;
+        height: 26px;
+    }
+}

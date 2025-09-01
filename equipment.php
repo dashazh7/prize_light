@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
-
+</head>
+<body>
     <!-- Шапка -->
     <header class="header">
         <div class="container">
@@ -56,6 +57,66 @@
                     <li><a href="#achievements">Достижения</a></li>
                 </ul>
             </div>
+    </header>
+
+    <!-- Шапка для устройств меньше 900px -->
+    <header class="header__adaptation">
+        <div class="container">
+            <div class="header__adaptation-navigation">
+                <div class="navigation__menu">
+                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Меню">
+                    <!-- Раскрывающееся меню -->
+                    <div class="navigation__menu-window">
+                        <div class="screens-wrapper">
+                            
+                            <!-- Первый экран -->
+                            <div class="menu-screen">
+                                <div class="menu-about-link">
+                                    <a href="#">О нас</a>
+                                    <img src="./images/ArrowRight.svg" alt="">
+                                </div>
+                                <a href="#service1" data-slide-to="0">Геодезия</a>
+                                <a href="#service2" data-slide-to="1">Геология</a>
+                                <a href="#service3" data-slide-to="2">Экология</a>
+                                <a href="#service4" data-slide-to="3">Дополнительные услуги</a>
+                                <a href="#projects">Проекты</a>
+                                <a href="#advantages">Почему мы</a>
+                                <a href="#achievements">Достижения</a>
+                            </div>
+
+                            <!-- Второй экран -->
+                            <div class="menu-screen">
+                                <a href="#" class="menu-back">
+                                    <img src="./images/ArrowLeft2.svg" alt="">
+                                </a>
+                                <a href="equipment.php">Материально-техническая база</a>
+                                <a href="history.php">История</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navigation__menu-logo">
+                        <img src="./images/logo_white.svg" alt="Логотип">
+                        <p>Инженерные изыскания в строительстве с 1991</p>
+                    </div>
+                </div>
+
+                <div class="navigation__contact">
+                    <div class="contact-wrapper">
+                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Позвонить">
+                        <!-- Раскрывающееся окно контактов -->
+                        <div class="navigation__contact-window">
+                            <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
+                            <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                            <a class="navigation__contact-window--button" href="#request">Оставить заявку</a>
+                            <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
+                            <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а</a></p>
+                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -113,5 +174,7 @@
     <script src="./js/servicesWindow.js"></script>
     <script src="./js/owlCarousel.js"></script>
     <script src="./js/copyToClipboard.js"></script>
+    <script src="./js/windowsMobile.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-</head>
+</body>
+</html>
