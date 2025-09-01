@@ -316,57 +316,55 @@
         padding: 16px 8px; 
         gap: 4px;
     }
-
 }
 
 
 @media (max-width: 540px) {
     .about-us__title {
-        font-size: 32px;
-        padding-bottom: 8px;
-        width: 350px;
+        font-size: 30px;
+        padding-bottom: 12px;
+        width: 312px;
     }
     
     .about-us__paragraph {
         font-size: 12px;
-        padding-bottom: 24px;
-        width: 350px
+        padding-bottom: 16px;
+        width: 312px
     }
 
     .about-us__adaptation-image img {
-        max-width: 350px;
+        max-width: 312px;
     }
 
     .about-us__adaptation-image {
-        padding-bottom: 24px;
+        padding-bottom: 16px;
     }
 
     .about-us__statistics {
-        gap: 6px;
-        padding-bottom: 76px;
+        gap: 12px;
+        padding-bottom: 0px;
     }
 
     .about-us__stat-value {
-        font-size: 30px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 24px;
     }
     
     .about-us__stat-label {
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 10px;
+        line-height: 10px;
     }
 
-    .about-us__stat-item1, .about-us__stat-item3 {
-        padding: 14px 24px;
-        gap: 0px;
+    .about-us__stat-item1 .about-us__stat-label, .about-us__stat-item3 .about-us__stat-label  {
+        width: 80px;
     }
 
-    .about-us__clients-title {
-        font-size: 12px;
-        line-height: 12px;
+    .about-us__stat-item2 .about-us__stat-label {
+        width: 70px;
     }
 
-    .about-us__clients-logos.running-line img {
-        height: 55px;
+    .about-us__stat-item1, .about-us__stat-item2, .about-us__stat-item3 {
+        padding: 12px 8px; 
+        gap: 4px;
     }
 }

@@ -526,8 +526,7 @@
     <script src="./js/copyToClipboard.js"></script>
     <script src="./js/fixedHeader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-    <script src="./js/menuWindowMobile.js"></script>
-    <script src="./js/contactWindowMobile.js"></script>
+    <script src="./js/windowsMobile.js"></script>
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>
