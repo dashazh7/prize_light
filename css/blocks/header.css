@@ -67,7 +67,6 @@
     box-shadow: 7px 5px 14px rgba(42, 148, 226, 0.25); 
 }
 
-
 .header__navigation {
     background-color: #2A94E2;
     border-radius: 20px;
@@ -227,7 +226,7 @@
 }
 
 
-
+/* Адаптация */
 @media (min-width: 1725px) {
     .header {
         margin-top: 48px;
@@ -424,6 +423,7 @@
         line-height: 12px !important;
     }
 }
+
 
 @media (min-width: 901px) {
     .header__adaptation {

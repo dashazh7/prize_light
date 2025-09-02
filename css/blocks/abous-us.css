@@ -71,11 +71,8 @@
     display: none;
 }
 
-.duplicate-image {
-    display: none;
-}
 
-
+/* Адаптация */
 @media (min-width: 1725px) {
     .about-us__content {
         gap: 0; 
@@ -206,6 +203,12 @@
 
     .about-us__adaptation-image {
         display: block;
+        padding-bottom: 24px;
+    }
+
+     .about-us__adaptation-image img {
+        max-width: 662px;
+        height: 340px;
     }
 
     .about-us__content {
@@ -223,15 +226,6 @@
         font-size: 16px;
         padding-bottom: 24px;
         width: 662px;
-    }
-
-    .about-us__adaptation-image img {
-        max-width: 662px;
-        height: 340px;
-    }
-
-    .about-us__adaptation-image {
-        padding-bottom: 24px;
     }
 
     .about-us__statistics {
@@ -280,13 +274,13 @@
         width: 462px
     }
 
+    .about-us__adaptation-image {
+        padding-bottom: 24px;
+    }
+
     .about-us__adaptation-image img {
         max-width: 462px;
         height: auto;
-    }
-
-    .about-us__adaptation-image {
-        padding-bottom: 24px;
     }
 
     .about-us__statistics {
@@ -332,12 +326,12 @@
         width: 312px
     }
 
-    .about-us__adaptation-image img {
-        max-width: 312px;
-    }
-
     .about-us__adaptation-image {
         padding-bottom: 16px;
+    }
+
+    .about-us__adaptation-image img {
+        max-width: 312px;
     }
 
     .about-us__statistics {

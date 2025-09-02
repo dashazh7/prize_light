@@ -3,7 +3,7 @@
   padding-bottom: 0px;
   background-color: var(--color-light);
 }
-  
+
 .achievements__title {
   font-size: 20px;
   font-weight: 500;
@@ -70,7 +70,7 @@
 }
 
 
-
+/* Адаптация */
 @media (min-width: 1725px) and (max-width: 1790px) {
   .achievements .owl-prev {
     left: 5px; 
@@ -236,7 +236,7 @@
   .achievements .owl-carousel-container {
     max-width: 500px;
     padding: 0 19px;
-}
+  }
 
   .achievements .owl-prev {
     left: -40px; 

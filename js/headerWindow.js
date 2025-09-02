@@ -7,16 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.classList.toggle("active");
 
         if (dropdown.classList.contains("active")) {
-            toggleButton.src = "./images/header/expand_less.svg"; 
+            toggleButton.src = "./images/header/expand_less-blue.svg"; 
         } else {
-            toggleButton.src = "./images/header/expand_more.svg";
+            toggleButton.src = "./images/header/expand_more-blue.svg";
         }
     });
 
     document.addEventListener("click", function (event) {
         if (!dropdown.contains(event.target) && event.target !== toggleButton) {
             dropdown.classList.remove("active");
-            toggleButton.src = "./images/header/expand_more.svg"; 
+            toggleButton.src = "./images/header/expand_more-blue.svg"; 
         }
     });
 });

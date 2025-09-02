@@ -23,6 +23,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (min-width: 1725px) {
+  .container {
+      max-width: 1725px;
+      padding: 0 19px;
+  }
+}
 
 @media (max-width: 1299px) {
   .container {
@@ -55,13 +61,6 @@ html {
 @media (max-width: 540px) {
   .container {
       max-width: 350px;
-      padding: 0 19px;
-  }
-}
-
-@media (min-width: 1725px) {
-  .container {
-      max-width: 1725px;
       padding: 0 19px;
   }
 }

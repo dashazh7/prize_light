@@ -124,7 +124,7 @@
 }
 
 
-
+/* Адаптация */
 @media (min-width: 1725px) and (max-width: 1765px) {
   .projects .owl-prev {
     left: 5px; 
@@ -278,6 +278,7 @@
       font-size: 40px;
       padding-bottom: 42px;
   }
+  
   .projects .owl-carousel-container {
       max-width: 700px;
       padding: 0 19px;

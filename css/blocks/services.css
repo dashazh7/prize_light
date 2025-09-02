@@ -151,7 +151,7 @@
 }
 
 
-
+/* Адаптация */
 @media (min-width: 1725px) and (max-width: 1765px) {
   .services .owl-prev {
     left: 5px; 
@@ -402,7 +402,7 @@
   .services .owl-carousel-container {
     max-width: 500px;
     padding: 0 19px;
-}
+  }
 
   .services .owl-prev {
     left: -40px; 

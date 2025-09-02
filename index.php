@@ -45,7 +45,7 @@
         <div class="container">
             <nav class="fixed__header-navigation">
                 <div class="fixed__header-logo">
-                    <a href="index.php"><img src="./images/logo_white.svg" alt=""></a>
+                    <a href="index.php"><img src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'"></a>
                     <div class="fixed__header-logo--text">
                         <h1>Инженерные изыскания в строительстве с 1991</h1>
                         <p>С нами надежнее</p>
@@ -68,13 +68,13 @@
         <div class="container">
             <div class="header__info">
                 <div class="header__info-logo">
-                    <img src="./images/logo_blue.svg" alt="Логотип">
+                    <img src="./images/logo_blue.svg" alt="Логотип ООО 'ПРИЗ'">
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
                 <div class="header__info-contact">
                     <a class="header__email">
                         priz72@mail.com
-                        <img id="dropdownToggle" src="./images/header/expand_more.svg" alt="">
+                        <img id="dropdownToggle" src="./images/header/expand_more-blue.svg" alt="Открыть окно контактов">
                     </a>
 
                     <div class="header__window">
@@ -97,11 +97,11 @@
                     <li class="header__about">
                         <a class="header__menu-window">
                             О нас
-                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="">
+                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="Открыть меню">
                         </a>
                         <div class="header__about-window">
-                            <a href="equipment.php" data-slide-to="0">Материально-техническая база</a>
-                            <a href="history.php" data-slide-to="1">История</a>
+                            <a href="material_base.php">Материально-техническая база</a>
+                            <a href="history.php">История</a>
                         </div>
                     </li>
                     <li><a href="#service1" data-slide-to="0">Геодезия</a></li>
@@ -121,7 +121,7 @@
         <div class="container">
             <div class="header__adaptation-navigation">
                 <div class="navigation__menu">
-                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Меню">
+                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Открыть меню">
                     <!-- Раскрывающееся меню -->
                     <div class="navigation__menu-window">
                         <div class="screens-wrapper">
@@ -130,7 +130,7 @@
                             <div class="menu-screen">
                                 <div class="menu-about-link">
                                     <a href="#">О нас</a>
-                                    <img src="./images/ArrowRight.svg" alt="">
+                                    <img src="./images/arrow_right.svg" alt="Раскрыть раздел">
                                 </div>
                                 <a href="#service1" data-slide-to="0">Геодезия</a>
                                 <a href="#service2" data-slide-to="1">Геология</a>
@@ -144,23 +144,23 @@
                             <!-- Второй экран -->
                             <div class="menu-screen">
                                 <a href="#" class="menu-back">
-                                    <img src="./images/ArrowLeft2.svg" alt="">
+                                    <img src="./images/arrow_left.svg" alt="Назад">
                                 </a>
-                                <a href="equipment.php">Материально-техническая база</a>
+                                <a href="material_base.php">Материально-техническая база</a>
                                 <a href="history.php">История</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="navigation__menu-logo">
-                        <img src="./images/logo_white.svg" alt="Логотип">
+                        <img src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'">
                         <p>Инженерные изыскания в строительстве с 1991</p>
                     </div>
                 </div>
 
                 <div class="navigation__contact">
                     <div class="contact-wrapper">
-                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Позвонить">
+                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Открыть окно контактов">
                         <!-- Раскрывающееся окно контактов -->
                         <div class="navigation__contact-window">
                             <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
@@ -467,12 +467,12 @@
         </section>
     </main>
 
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer__navigation">
                 <a class="footer__logo" href="">
-                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="">
+                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'">
                     ООО "ПРИЗ"
                 </a>
                 <ul class="footer__menu">
@@ -502,7 +502,7 @@
 
     <!-- Кнопка звонка -->
     <a href="tel:+1234567890" class="callback-bt">
-        <img src="./images/call.svg" alt="">
+        <img src="./images/callback_btn.svg" alt="Позвонить">
     </a>
 
     <!-- Модальное окно при отправке заявки -->

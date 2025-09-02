@@ -12,13 +12,13 @@
         <div class="container">
             <div class="header__info">
                 <div class="header__info-logo">
-                    <a href="index.php"><img src="./images/logo_blue.svg" alt="Логотип"></a>
+                    <a href="index.php"><img src="./images/logo_blue.svg" alt="Логотип ООО 'ПРИЗ'"></a>
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
                 <div class="header__info-contact">
                     <a class="header__email">
                         priz72@mail.com
-                        <img id="dropdownToggle" src="./images/header/expand_more.svg" alt="">
+                        <img id="dropdownToggle" src="./images/header/expand_more-blue.svg" alt="Открыть меню контактов">
                     </a>
 
                     <div class="header__window">
@@ -27,7 +27,7 @@
                         <a class="header__window-button" href="#request">Оставить заявку</a>
                         <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
-                        <p>Режим работы<br><a href="">Пн-Пт: 9:00-18:00</a></p>
+                        <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
                     </div>
 
                     <a class="header__request" href="#request">
@@ -41,22 +41,23 @@
                     <li class="header__about">
                         <a class="header__menu-window">
                             О нас
-                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="">
+                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="Открыть меню">
                         </a>
                         <div class="header__about-window">
-                            <a href="equipment.php" data-slide-to="0">Материально-техническая база</a>
-                            <a href="history.php" data-slide-to="1">История</a>
+                            <a href="material_base.php">Материально-техническая база</a>
+                            <a href="history.php">История</a>
                         </div>
                     </li>
-                    <li><a href="">Геодезия</a></li>
-                    <li><a href="">Геология</a></li>
-                    <li><a href="">Экология</a></li>
-                    <li><a href="">Дополнительные услуги</a></li>
+                    <li><a href="#service1" data-slide-to="0">Геодезия</a></li>
+                    <li><a href="#service2" data-slide-to="1">Геология</a></li>
+                    <li><a href="#service3" data-slide-to="2">Экология</a></li>
+                    <li><a href="#service4" data-slide-to="3">Дополнительные услуги</a></li>
                     <li><a href="#projects">Проекты</a></li>
                     <li><a href="#advantages">Почему мы</a></li>
                     <li><a href="#achievements">Достижения</a></li>
                 </ul>
             </div>
+        </div> 
     </header>
 
     <!-- Шапка для устройств меньше 900px -->
@@ -64,7 +65,7 @@
         <div class="container">
             <div class="header__adaptation-navigation">
                 <div class="navigation__menu">
-                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Меню">
+                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Открыть меню">
                     <!-- Раскрывающееся меню -->
                     <div class="navigation__menu-window">
                         <div class="screens-wrapper">
@@ -73,7 +74,7 @@
                             <div class="menu-screen">
                                 <div class="menu-about-link">
                                     <a href="#">О нас</a>
-                                    <img src="./images/ArrowRight.svg" alt="">
+                                    <img src="./images/arrow_right.svg" alt="Раскрыть раздел">
                                 </div>
                                 <a href="#service1" data-slide-to="0">Геодезия</a>
                                 <a href="#service2" data-slide-to="1">Геология</a>
@@ -87,23 +88,23 @@
                             <!-- Второй экран -->
                             <div class="menu-screen">
                                 <a href="#" class="menu-back">
-                                    <img src="./images/ArrowLeft2.svg" alt="">
+                                    <img src="./images/arrow_left.svg" alt="Назад">
                                 </a>
-                                <a href="equipment.php">Материально-техническая база</a>
+                                <a href="material_base.php">Материально-техническая база</a>
                                 <a href="history.php">История</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="navigation__menu-logo">
-                        <img src="./images/logo_white.svg" alt="Логотип">
+                        <a href="index.php"><img src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'"></a>
                         <p>Инженерные изыскания в строительстве с 1991</p>
                     </div>
                 </div>
 
                 <div class="navigation__contact">
                     <div class="contact-wrapper">
-                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Позвонить">
+                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Открыть окно контактов">
                         <!-- Раскрывающееся окно контактов -->
                         <div class="navigation__contact-window">
                             <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
@@ -164,17 +165,49 @@
         </section>
     </main>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__navigation">
+                <a class="footer__logo" href="">
+                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="">
+                    ООО "ПРИЗ"
+                </a>
+                <ul class="footer__menu">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#advantages">Почему мы</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
+                </ul>
+            </div>
+           
+            <p class="footer__divider"></p>
 
+            <div class="footer__information">
+                <div class="footer__information-wrapper">
+                    <div class="footer__address">
+                        <p>город Тюмень, ул. Шмидта, д.48а</p>
+                    </div>
+                    <div class="footer__contacts">
+                        <p>Телефон <a href="tel:+79526891244">+79526891244</a></p>
+                        <p><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
+    <!-- Подключение JavaScript файлов -->
     <script src="./js/toggleCallbackButton.js"></script>
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
     <script src="./js/headerWindow.js"></script>
-    <script src="./js/servicesWindow.js"></script>
+    <script src="./js/aboutWindow.js"></script>
     <script src="./js/owlCarousel.js"></script>
     <script src="./js/copyToClipboard.js"></script>
-    <script src="./js/windowsMobile.js"></script>
+    <script src="./js/fixedHeader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="./js/windowsMobile.js"></script>
 </body>
 </html>
