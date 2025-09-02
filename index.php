@@ -501,8 +501,8 @@
     </footer>
 
     <!-- Кнопка звонка -->
-    <a href="tel:+1234567890" class="callback-bt">
-        <img src="./images/callback_btn.svg" alt="Позвонить">
+    <a href="tel:+1234567890" class="call__button">
+        <img src="./images/call_btn.svg" alt="Позвонить">
     </a>
 
     <!-- Модальное окно при отправке заявки -->
@@ -518,7 +518,7 @@
     </div>
 
     <!-- Подключение JavaScript файлов -->
-    <script src="./js/toggleCallbackButton.js"></script>
+    <script src="./js/callButton.js"></script>
     <script src="./js/modalWindow.js"></script>
     <script src="./js/phoneNumberFormat.js"></script>
     <script src="./js/headerWindow.js"></script>

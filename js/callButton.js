@@ -1,4 +1,4 @@
-const callbackButton = document.querySelector('.callback-bt');
+const callbackButton = document.querySelector('.call__button');
 const header = document.querySelector('header');
 const footer = document.querySelector('footer');
 const headerHeight = header.offsetHeight; 

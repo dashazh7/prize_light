@@ -1,4 +1,4 @@
-.callback-bt {
+.call__button {
     background: var(--accent); 
     border-radius: 50%; 
     height: 68px;
@@ -17,12 +17,12 @@
     animation: pulse 1.5s infinite, waveShadow 1.5s infinite; 
 }
 
-.callback-bt.show {
+.call__button.show {
     opacity: 1; 
     transform: translateY(0);
 }
 
-.callback-bt img {
+.call__button img {
     width: 35px; 
     height: 35px;
     object-fit: contain;
@@ -55,19 +55,19 @@
 
 
 @media (min-width: 1725px) {
-    .callback-bt {
+    .call__button {
         height: 78px;
         width: 78px;
     }
 
-    .callback-bt img {
+    .call__button img {
         width: 40px; 
         height: 40px;
     }
 }
 
 @media (max-width: 740px) {
-    .callback-bt {
+    .call__button {
         display: none;
     }
 }
