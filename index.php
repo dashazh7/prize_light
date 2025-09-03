@@ -99,8 +99,8 @@
                             <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="Открыть меню">
                         </a>
                         <div class="header__about-window">
-                            <a href="material_base.php">Материально-техническая база</a>
-                            <a href="history.php">История</a>
+                            <a href="material_base">Материально-техническая база</a>
+                            <a href="history">История</a>
                         </div>
                     </li>
                     <li><a href="#service1" data-slide-to="0">Геодезия</a></li>
@@ -145,8 +145,8 @@
                                 <a href="#" class="menu-back">
                                     <img src="./images/arrow_left.svg" alt="Назад">
                                 </a>
-                                <a href="material_base.php">Материально-техническая база</a>
-                                <a href="history.php">История</a>
+                                <a href="material_base">Материально-техническая база</a>
+                                <a href="history">История</a>
                             </div>
                         </div>
                     </div>
