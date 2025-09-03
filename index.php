@@ -19,8 +19,7 @@
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
     <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -382,48 +381,48 @@
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="achievements__card">
                             <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.png" data-fancybox="gallery">
-                                <img src="./images/achievements/achievement.png" alt="">
+                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
+                                <img src="./images/achievements/achievement.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -526,8 +525,10 @@
     <script src="./js/owlCarousel.js"></script>
     <script src="./js/copyToClipboard.js"></script>
     <script src="./js/fixedHeader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="./js/windowsMobile.js"></script>
+    <script src="./js/fancybox.js"></script>
+
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>
@@ -536,7 +537,6 @@
             }
         </script>
     <?php } ?>
-
 </body>
 </html>
 
