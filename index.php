@@ -44,7 +44,7 @@
         <div class="container">
             <nav class="fixed__header-navigation">
                 <div class="fixed__header-logo">
-                    <a href="index.php"><img src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'"></a>
+                    <a href="/"><img src="./images/logo_white.svg" alt=""></a>
                     <div class="fixed__header-logo--text">
                         <h1>Инженерные изыскания в строительстве с 1991</h1>
                         <p>С нами надежнее</p>
@@ -53,7 +53,7 @@
                 <div class="fixed__header-contacts">
                     <a class="fixed__header-contacts--number" href="tel:+79526891244">+7 (952) 689-12-44</a>
                     <a class="fixed__header-contacts--email" href="mailto:example@yandex.ru">example@yandex.ru</a>
-                    <a class="fixed__header-contacts--btn" href="#request">
+                    <a class="fixed__header-contacts--btn" href="/request" onclick="scrollToSection('request'); return false;">
                         Оставить заявку
                     </a>
                 </div>
@@ -67,25 +67,25 @@
         <div class="container">
             <div class="header__info">
                 <div class="header__info-logo">
-                    <img src="./images/logo_blue.svg" alt="Логотип ООО 'ПРИЗ'">
+                    <img src="./images/logo_blue.svg" alt="">
                     <p>Инженерные изыскания в строительстве с 1991</p>
                 </div>
                 <div class="header__info-contact">
                     <a class="header__email">
                         priz72@mail.com
-                        <img id="dropdownToggle" src="./images/header/expand_more-blue.svg" alt="Открыть окно контактов">
+                        <img id="dropdownToggle" src="./images/header/expand_more-blue.svg" alt="">
                     </a>
 
                     <div class="header__window">
                         <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
                         <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
-                        <a class="header__window-button" href="#request">Оставить заявку</a>
+                        <a class="header__window-button" href="/request" onclick="scrollToSection('request'); return false;">Оставить заявку</a>
                         <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
                         <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
                     </div>
 
-                    <a class="header__request" href="#request">
+                    <a class="header__request" href="/request" onclick="scrollToSection('request'); return false;">
                         Оставить заявку
                     </a>
                 </div>
@@ -96,20 +96,20 @@
                     <li class="header__about">
                         <a class="header__menu-window">
                             О нас
-                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="Открыть меню">
+                            <img id="AboutDropdownToggle" src="./images/header/expand_more-white.svg" alt="">
                         </a>
                         <div class="header__about-window">
                             <a href="material_base">Материально-техническая база</a>
                             <a href="history">История</a>
                         </div>
                     </li>
-                    <li><a href="#service1" data-slide-to="0">Геодезия</a></li>
-                    <li><a href="#service2" data-slide-to="1">Геология</a></li>
-                    <li><a href="#service3" data-slide-to="2">Экология</a></li>
-                    <li><a href="#service4" data-slide-to="3">Дополнительные услуги</a></li>
-                    <li><a href="#projects">Проекты</a></li>
-                    <li><a href="#advantages">Почему мы</a></li>
-                    <li><a href="#achievements">Достижения</a></li>
+                    <li><a href="/geodesy" onclick="scrollToSection('geodesy'); return false;">Геодезия</a></li>
+                    <li><a href="/geology" onclick="scrollToSection('geology'); return false;">Геология</a></li>
+                    <li><a href="/ecology" onclick="scrollToSection('ecology'); return false;">Экология</a></li>
+                    <li><a href="/additional_services" onclick="scrollToSection('additional_services'); return false;">Дополнительные услуги</a></li>
+                    <li><a href="/projects" onclick="scrollToSection('projects'); return false;">Проекты</a></li>
+                    <li><a href="/advantages" onclick="scrollToSection('advantages'); return false;">Почему мы</a></li>
+                    <li><a href="/achievements" onclick="scrollToSection('achievements'); return false;">Достижения</a></li>
                 </ul>
             </div>
         </div> 
@@ -120,7 +120,7 @@
         <div class="container">
             <div class="header__adaptation-navigation">
                 <div class="navigation__menu">
-                    <img class="navigation__menu-img" src="./images/menu.svg" alt="Открыть меню">
+                    <img class="navigation__menu-img" src="./images/menu.svg" alt="">
                     <!-- Раскрывающееся меню -->
                     <div class="navigation__menu-window">
                         <div class="screens-wrapper">
@@ -129,21 +129,21 @@
                             <div class="menu-screen">
                                 <div class="menu-about-link">
                                     <a href="#">О нас</a>
-                                    <img src="./images/arrow_right.svg" alt="Раскрыть раздел">
+                                    <img src="./images/arrow_right.svg" alt="">
                                 </div>
-                                <a href="#service1" data-slide-to="0">Геодезия</a>
-                                <a href="#service2" data-slide-to="1">Геология</a>
-                                <a href="#service3" data-slide-to="2">Экология</a>
-                                <a href="#service4" data-slide-to="3">Дополнительные услуги</a>
-                                <a href="#projects">Проекты</a>
-                                <a href="#advantages">Почему мы</a>
-                                <a href="#achievements">Достижения</a>
+                                <li><a href="/geodesy" onclick="scrollToSection('geodesy'); return false;">Геодезия</a></li>
+                                <li><a href="/geology" onclick="scrollToSection('geology'); return false;">Геология</a></li>
+                                <li><a href="/ecology" onclick="scrollToSection('ecology'); return false;">Экология</a></li>
+                                <li><a href="/additional_services" onclick="scrollToSection('additional_services'); return false;">Дополнительные услуги</a></li>
+                                <li><a href="/projects" onclick="scrollToSection('projects'); return false;">Проекты</a></li>
+                                <li><a href="/advantages" onclick="scrollToSection('advantages'); return false;">Почему мы</a></li>
+                                <li><a href="/achievements" onclick="scrollToSection('achievements'); return false;">Достижения</a></li>
                             </div>
 
                             <!-- Второй экран -->
                             <div class="menu-screen">
                                 <a href="#" class="menu-back">
-                                    <img src="./images/arrow_left.svg" alt="Назад">
+                                    <img src="./images/arrow_left.svg" alt="">
                                 </a>
                                 <a href="material_base">Материально-техническая база</a>
                                 <a href="history">История</a>
@@ -152,14 +152,14 @@
                     </div>
 
                     <div class="navigation__menu-logo">
-                        <img src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'">
+                        <img src="./images/logo_white.svg" alt="">
                         <p>Инженерные изыскания в строительстве с 1991</p>
                     </div>
                 </div>
 
                 <div class="navigation__contact">
                     <div class="contact-wrapper">
-                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="Открыть окно контактов">
+                        <img class="contact-icon" src="./images/call_adaptation.svg" alt="">
                         <!-- Раскрывающееся окно контактов -->
                         <div class="navigation__contact-window">
                             <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
@@ -217,7 +217,7 @@
             </div>
             <div class="owl-carousel-container">
                 <div class="owl-carousel owl-theme slider-one">
-                    <div class="item" id="service1">
+                    <div class="item" id="geodesy">
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
@@ -235,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" id="service2">
+                    <div class="item" id="geology">
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" id="service3">
+                    <div class="item" id="ecology">
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
@@ -268,7 +268,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" id="service4">
+                    <div class="item" id="additional_services">
                         <div class="services__card">
                             <img src="./images/services/service1.png">
                             <div class="services__card-content">
@@ -470,16 +470,16 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__navigation">
-                <a class="footer__logo" href="">
-                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="Логотип ООО 'ПРИЗ'">
+                <a class="footer__logo" href="/">
+                    <img class="footer__logo-img" src="./images/logo_white.svg" alt="">
                     ООО "ПРИЗ"
                 </a>
                 <ul class="footer__menu">
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#projects">Проекты</a></li>
-                    <li><a href="#advantages">Почему мы</a></li>
-                    <li><a href="#achievements">Достижения</a></li>
+                    <li><a href="/about" onclick="scrollToSection('about'); return false;">О нас</a></li>
+                    <li><a href="/services" onclick="scrollToSection('services'); return false;">Услуги</a></li>
+                    <li><a href="/projects" onclick="scrollToSection('projects'); return false;">Проекты</a></li>
+                    <li><a href="/advantages" onclick="scrollToSection('advantages'); return false;">Почему мы</a></li>
+                    <li><a href="/achievements" onclick="scrollToSection('achievements'); return false;">Достижения</a></li>
                 </ul>
             </div>
            
@@ -501,7 +501,7 @@
 
     <!-- Кнопка звонка -->
     <a href="tel:+1234567890" class="call__button">
-        <img src="./images/call_btn.svg" alt="Позвонить">
+        <img src="./images/call_btn.svg" alt="">
     </a>
 
     <!-- Модальное окно при отправке заявки -->
@@ -528,7 +528,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="./js/windowsMobile.js"></script>
     <script src="./js/fancybox.js"></script>
-
+    <script src="./js/scrollSections.js"></script>
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>

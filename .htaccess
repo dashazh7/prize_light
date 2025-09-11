@@ -1,5 +1,7 @@
 RewriteEngine On
-RewriteBase /prize_light/
+RewriteBase /
 
 RewriteRule ^history$ history.php [L]
 RewriteRule ^material_base$ material_base.php [L]
+
+RewriteRule ^(about|services|geodesy|geology|ecology|additional_services|projects|advantages|achievements|request)$ index.php [L]
