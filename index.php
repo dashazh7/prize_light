@@ -300,11 +300,11 @@
                         <div class="projects__card">
                             <img src="./images/projects/project.png">
                             <div class="projects__card-content">
-                                <h2 class="projects__card-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-title">Здание Лукойл на ул. Республики</h2>
                                 <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="projects__card-hidden">
-                                <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-hidden-title">Здание Лукойл на ул. Республики</h2>
                                 <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
                                 <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
                             </div>
@@ -314,11 +314,11 @@
                         <div class="projects__card">
                             <img src="./images/projects/project.png">
                             <div class="projects__card-content">
-                                <h2 class="projects__card-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-title">Здание DoubleTree by Hilton</h2>
                                 <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="projects__card-hidden">
-                                <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-hidden-title">Здание DoubleTree by Hilton</h2>
                                 <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
                                 <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
                             </div>
@@ -329,11 +329,86 @@
                         <div class="projects__card">
                             <img src="./images/projects/project.png">
                             <div class="projects__card-content">
-                                <h2 class="projects__card-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-title">Свеча воинам-тюменцам, погибшим на фронтах Великой Отечественной войны 1941-1945 г</h2>
                                 <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="projects__card-hidden">
-                                <h2 class="projects__card-hidden-title">ЖК “Брусника”</h2>
+                                <h2 class="projects__card-hidden-title">Свеча воинам-тюменцам, погибшим на фронтах Великой Отечественной войны 1941-1945 г</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">Микрорайон МЖК г.Тюмень</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">Микрорайон МЖК г.Тюмень</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">Микрорайон Восточный г.Тюмень</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">Микрорайон Восточный г.Тюмень</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">Жилой комплекс «Суходолье»</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">Жилой комплекс «Суходолье»</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">Жилой комплекс «Республика»</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">Жилой комплекс «Республика»</h2>
+                                <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
+                                <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="projects__card">
+                            <img src="./images/projects/project.png">
+                            <div class="projects__card-content">
+                                <h2 class="projects__card-title">Административное здание «Геосфера»</h2>
+                                <p class="projects__card-paragraph">Текст текст текст текст текст текст текст текст</p>
+                            </div>
+                            <div class="projects__card-hidden">
+                                <h2 class="projects__card-hidden-title">Административное здание «Геосфера»</h2>
                                 <p class="projects__card-hidden-text1">Текст текст текст текст текст текст текст текст</p>
                                 <p class="projects__card-hidden-text2">Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст Какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст какой-то текст</p>
                             </div>

@@ -22,7 +22,7 @@ $(document).ready(function(){
         touchDrag: true,
         autoplay: false, 
       },
-      900: {
+      901: {
         items: 2,
         nav: true,  
         touchDrag: false,
