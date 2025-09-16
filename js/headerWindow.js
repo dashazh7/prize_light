@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const toggleButton = document.getElementById("dropdownToggle");
+    const toggleLink = document.querySelector(".header__email"); 
+    const toggleButton = document.getElementById("dropdownToggle"); 
     const dropdown = document.querySelector(".header__window");
 
-    toggleButton.addEventListener("click", function (event) {
+    toggleLink.addEventListener("click", function (event) {
         event.preventDefault(); 
         dropdown.classList.toggle("active");
 
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.addEventListener("click", function (event) {
-        if (!dropdown.contains(event.target) && event.target !== toggleButton) {
+        if (!dropdown.contains(event.target) && event.target !== toggleLink && event.target !== toggleButton) {
             dropdown.classList.remove("active");
             toggleButton.src = "./images/header/expand_more-blue.svg"; 
         }

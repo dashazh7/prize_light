@@ -3,8 +3,8 @@ function scrollToSectionAch(sectionId) {
     if (!section) return;
     const carousel = section.closest('.owl-carousel');
     if (carousel) {
-        if (carousel.classList.contains('slider-one')) {
-            const parentSection = document.querySelector('.services');
+        if (carousel.classList.contains('slider-three')) {
+            const parentSection = document.querySelector('.achievements');
             if (parentSection) {
                 parentSection.scrollIntoView({ behavior: 'smooth' });
             }
@@ -25,8 +25,8 @@ window.addEventListener('load', () => {
     if (!section) return;
     const carousel = section.closest('.owl-carousel');
     if (carousel) {
-        if (carousel.classList.contains('slider-one')) {
-            const parentSection = document.querySelector('.services');
+        if (carousel.classList.contains('slider-three')) {
+            const parentSection = document.querySelector('.achievements');
             if (parentSection) {
                 parentSection.scrollIntoView({ behavior: 'smooth' });
             }

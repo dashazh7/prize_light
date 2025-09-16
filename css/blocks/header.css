@@ -89,6 +89,7 @@
     line-height: 18px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .header__menu a:hover {
@@ -139,6 +140,7 @@
     color: #000000;
     text-decoration: none;
     padding: 4px;
+    cursor: pointer;
 }
 
 .header__about-window a:hover {

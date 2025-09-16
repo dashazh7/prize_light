@@ -13,16 +13,16 @@
 }
   
 .achievements__paragraph {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 58px;
-  padding-bottom: 42px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 32px;
 }
-  
+
 .achievements__card {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 15px; 
 }
 
 .achievements__card img {
@@ -30,12 +30,6 @@
   height: 488px;
   border-radius: 20px;
 } 
-
-.achievements__card h2 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 32px;
-}
 
 /* Карусель */
 .achievements .owl-nav {
@@ -71,17 +65,6 @@
 
 
 /* Адаптация */
-@media (min-width: 1725px) and (max-width: 1790px) {
-  .achievements .owl-prev {
-    left: 5px; 
-  }
-    
-  .achievements .owl-next {
-    right: 10px !important; 
-  }
-}
-
-
 @media (min-width: 1725px) {
   .achievements {
     padding-top: 120px;
@@ -94,14 +77,10 @@
   }
     
   .achievements__paragraph {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 600;
-    line-height: 58px;
-    padding-bottom: 54px;
-  }
-
-  .achievements__card h2 {
-    font-size: 24px;
+    line-height: 64px;
+    padding-bottom: 48px;
   }
 
   .achievements__card img {
@@ -109,16 +88,46 @@
     height: 688px;
     border-radius: 20px;
   } 
-}
 
-
-@media(max-width: 1350px) {
   .achievements .owl-prev {
-    left: 0px; 
+    left: -30px !important; 
   }
     
   .achievements .owl-next {
-    right: 15px; 
+    right: -30px !important; 
+  }
+}
+
+
+@media (max-width: 1750px) {
+  .achievements .owl-prev {
+    left: 0px !important; 
+  }
+    
+  .achievements .owl-next {
+    right: 0px !important; 
+  }
+}
+
+
+@media (max-width: 1724px) {
+  .achievements .owl-prev {
+    left: -40px !important; 
+  }
+    
+  .achievements .owl-next {
+    right: 10px !important; 
+  }
+}
+
+
+@media(max-width: 1340px) {
+  .achievements .owl-prev {
+    left: -15px !important; 
+  }
+    
+  .achievements .owl-next {
+    right: 40px !important; 
   }
 }
 
@@ -130,49 +139,78 @@
   }
 
   .achievements .owl-prev {
-    left: -40px; 
+    left: -50px !important; 
   }
     
   .achievements .owl-next {
-    right: 100px; 
+    right: 670px !important; 
   }
 }
 
 
-@media(max-width: 1130px) {
+@media(max-width: 1160px) {
   .achievements .owl-prev {
-    left: 0px; 
+    left: -30px !important; 
   }
     
   .achievements .owl-next {
-    right: 130px; 
+    right: 680px !important; 
+  }
+}
+
+
+@media(max-width: 1115px) {
+  .achievements .owl-prev {
+    left: -10px !important; 
+  }
+    
+  .achievements .owl-next {
+    right: 710px !important; 
   }
 }
 
 
 @media (max-width: 1100px) {
+  .achievements__paragraph {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 32px;
+  }
+  
   .achievements .owl-carousel-container {
     max-width: 900px;
     padding: 0 19px;
   }
 
   .achievements .owl-prev {
-    left: -40px; 
+    left: -50px !important; 
   }
     
   .achievements .owl-next {
-    right: 450px; 
+    right: 460px !important; 
   }
 }
 
 
-@media (max-width: 930px) {
+@media (max-width: 955px) {
   .achievements .owl-prev {
-    left: 0px; 
+    left: -30px !important; 
   }
     
   .achievements .owl-next {
-    right: 490px; 
+    right: 485px !important; 
+  }
+}
+
+
+@media (max-width: 917px) {
+  .achievements .owl-prev {
+    left: -10px !important; 
+  }
+    
+  .achievements .owl-next {
+    right: 500px !important; 
   }
 }
 
@@ -188,8 +226,8 @@
   }
 
   .achievements__paragraph {
-      font-size: 40px;
-      padding-bottom: 42px;
+      font-size: 36px;
+      padding-bottom: 24px;
   }
   .achievements .owl-carousel-container {
       max-width: 700px;
@@ -197,22 +235,11 @@
   }
 
   .achievements .owl-prev {
-    left: -40px; 
+    left: -40px !important; 
   }
     
   .achievements .owl-next {
-    right: 250px; 
-  }
-}
-
-
-@media (max-width: 730px) {
-  .achievements .owl-prev {
-    left: 0px; 
-  }
-    
-  .achievements .owl-next {
-    right: 270px; 
+    right: 270px !important; 
   }
 }
 
@@ -230,7 +257,7 @@
   .achievements__paragraph {
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
   }
  
   .achievements .owl-carousel-container {
@@ -239,16 +266,27 @@
   }
 
   .achievements .owl-prev {
-    left: -40px; 
+    left: -40px !important; 
   }
     
   .achievements .owl-next {
-    right: 50px; 
+    right: 75px !important; 
   }
 }
 
 
 @media (max-width: 540px) {
+  .achievements__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .achievements__paragraph {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+
   .achievements__card img {
     width: 280px !important;
     height: 380px !important;
@@ -261,11 +299,11 @@
   }
 
   .achievements .owl-prev {
-    left: -40px; 
+    left: -40px !important; 
   }
     
   .achievements .owl-next {
-    right: -40px; 
+    right: -40px !important; 
   }
 }
 

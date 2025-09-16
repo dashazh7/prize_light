@@ -32,6 +32,10 @@
     height: auto;
 }
 
+.about-us__image img {
+    border-radius: 20px;
+}
+
 .about-us__statistics {
     display: flex;
     gap: 19px;
@@ -209,6 +213,7 @@
      .about-us__adaptation-image img {
         max-width: 662px;
         height: 340px;
+        border-radius: 20px;
     }
 
     .about-us__content {

@@ -12,10 +12,10 @@
 }
 
 .projects__paragraph {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 58px;
-  padding-bottom: 42px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 32px;
 }
 
 .projects__card {
@@ -148,10 +148,10 @@
   }
   
   .projects__paragraph {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 600;
-    line-height: 58px;
-    padding-bottom: 54px;
+    line-height: 64px;
+    padding-bottom: 48px;
   }
   
   .projects__card {
@@ -238,6 +238,13 @@
 
 
 @media (max-width: 1100px) {
+  .projects__paragraph {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 32px;
+  }
+    
   .projects .owl-carousel-container {
     max-width: 900px;
     padding: 0 19px;
@@ -275,8 +282,8 @@
   }
 
   .projects__paragraph {
-      font-size: 40px;
-      padding-bottom: 42px;
+      font-size: 36px;
+      padding-bottom: 24px;
   }
   
   .projects .owl-carousel-container {
@@ -318,7 +325,7 @@
   .projects__paragraph {
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
   }
 
   .projects__card {
@@ -369,6 +376,17 @@
 
 
 @media (max-width: 540px) {
+  .projects__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .projects__paragraph {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+
   .projects .owl-carousel-container {
     max-width: 320px;
     padding: 0 19px;
@@ -387,7 +405,7 @@
   }
   
   .projects__card-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
@@ -415,11 +433,11 @@
   }
   
   .projects .owl-prev {
-    left: -40px; 
+    left: -40px !important; 
   }
     
   .projects .owl-next {
-    right: -5px; 
+    right: 5px !important; 
   }
 }
 

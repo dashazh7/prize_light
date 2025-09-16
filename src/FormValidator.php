@@ -2,7 +2,7 @@
 namespace Prize;
 
 class FormValidator {
-    public static function validate($phone, $comment) {
+    public static function validate($phone, $comment, $agreement) {
         $errors = [];
 
         if (empty($phone)) {
@@ -18,6 +18,10 @@ class FormValidator {
             $errors['comment'] = 'Комментарий не может быть длиннее 255 символов';
         } else {
             $comment = strip_tags($comment); 
+        }
+
+        if (empty($agreement)) {
+            $errors['agreement'] = 'Необходимо согласиться на обработку персональных данных';
         }
 
         return [$errors, $comment];

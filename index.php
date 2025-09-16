@@ -7,7 +7,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ООО «Приз» — инженерные изыскания в Тюмени | Геология, геодезия, экология</title>
+    <meta name="description" content="ООО «Приз» — инженерные изыскания в Тюмени с 1991 года. Выполнение геологических, геодезических, экологических, гидрометеорологических и геотехнических работ, обследование грунтов с использованием собственной лаборатории и парка буровой техники">
+    <meta name="keywords" content="инженерные изыскания, геологические изыскания, геодезические изыскания, экологические изыскания, геотехнические изыскания, гидрометеорологические изыскания, обследование грунтов, буровые работы, лаборатория грунтов, Тюмень, ООО ПРИЗ">
+
     <link rel="stylesheet" href="./css/main.css">
 
      <!-- jQuery -->
@@ -101,6 +104,7 @@
                         <div class="header__about-window">
                             <a href="material_base">Материально-техническая база</a>
                             <a href="history">История</a>
+                            <a href="requisites">Реквизиты</a>
                         </div>
                     </li>
                     <li><a href="/geodesy" onclick="scrollToSection('geodesy'); return false;">Геодезия</a></li>
@@ -131,13 +135,13 @@
                                     <a href="#">О нас</a>
                                     <img src="./images/arrow_right.svg" alt="">
                                 </div>
-                                <li><a href="/geodesy" onclick="scrollToSection('geodesy'); return false;">Геодезия</a></li>
-                                <li><a href="/geology" onclick="scrollToSection('geology'); return false;">Геология</a></li>
-                                <li><a href="/ecology" onclick="scrollToSection('ecology'); return false;">Экология</a></li>
-                                <li><a href="/additional_services" onclick="scrollToSection('additional_services'); return false;">Дополнительные услуги</a></li>
-                                <li><a href="/projects" onclick="scrollToSection('projects'); return false;">Проекты</a></li>
-                                <li><a href="/advantages" onclick="scrollToSection('advantages'); return false;">Почему мы</a></li>
-                                <li><a href="/achievements" onclick="scrollToSection('achievements'); return false;">Достижения</a></li>
+                                <a href="/geodesy" onclick="scrollToSection('geodesy'); return false;">Геодезия</a>
+                                <a href="/geology" onclick="scrollToSection('geology'); return false;">Геология</a>
+                                <a href="/ecology" onclick="scrollToSection('ecology'); return false;">Экология</a>
+                                <a href="/additional_services" onclick="scrollToSection('additional_services'); return false;">Дополнительные услуги</a>
+                                <a href="/projects" onclick="scrollToSection('projects'); return false;">Проекты</a>
+                                <a href="/advantages" onclick="scrollToSection('advantages'); return false;">Почему мы</a>
+                                <a href="/achievements" onclick="scrollToSection('achievements'); return false;">Достижения</a>
                             </div>
 
                             <!-- Второй экран -->
@@ -147,6 +151,7 @@
                                 </a>
                                 <a href="material_base">Материально-техническая база</a>
                                 <a href="history">История</a>
+                                <a href="requisites">Реквизиты</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +189,7 @@
                         <h1 class="about-us__title">Более 30 лет опыта инженерных изысканий</h1>
                         <p class="about-us__paragraph">Мы проводим комплексные исследования грунтов, экологии и геологии для безопасного строительства объектов любой сложности</p>
                         <div class="about-us__adaptation-image">
-                            <img src="./images/about-us/about-us-adaptation.png" alt="">
+                            <img src="./images/about-us/about-adaptation.jpg" alt="">
                         </div>
                         <div class="about-us__statistics">
                             <div class="about-us__stat-item1">
@@ -203,7 +208,7 @@
                     </div>
         
                     <div class="about-us__image">
-                        <img src="./images/about-us/about-us.png" alt="">
+                        <img src="./images/about-us/about.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -213,16 +218,15 @@
         <section class="services" id="services">
             <div class="container">
                 <h1 class="services__title">Услуги</h1>
-                <p class="services__paragraph">Какой-то текст Какой-то текст</p>
+                <p class="services__paragraph">Выполняем различные работы</p>
             </div>
             <div class="owl-carousel-container">
                 <div class="owl-carousel owl-theme slider-one">
                     <div class="item" id="geodesy">
                         <div class="services__card">
-                            <img src="./images/services/service1.png">
+                            <img src="./images/services/geodesy.jpg">
                             <div class="services__card-content">
                                 <h2 class="services__card-title">Геодезия</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
                                 <h2 class="services__card-hidden-title">Геодезия</h2>
@@ -237,28 +241,25 @@
                     </div>
                     <div class="item" id="geology">
                         <div class="services__card">
-                            <img src="./images/services/service1.png">
+                            <img src="./images/services/geology.jpg">
                             <div class="services__card-content">
                                 <h2 class="services__card-title">Геология</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
                                 <h2 class="services__card-hidden-title">Геология</h2>
-                                <p class="services__card-hidden-text">Создание опорных геодезических сетей</p>
-                                <p class="services__card-hidden-text">Создание и обновление инженерно-топографических планов в масштабах 1:200 – 1:5000, в том числе в цифровой форме, съемка подземных коммуникаций и сооружений</p>
-                                <p class="services__card-hidden-text">Геодезические наблюдения за деформациями и осадками зданий и сооружений, движениями земной поверхности и опасными природными процессами</p>
-                                <p class="services__card-hidden-text">Трассирование линейных объектов</p>
-                                <p class="services__card-hidden-text">Инженерно-гидрографические работы</p>
-                                <p class="services__card-hidden-text">Специальные геодезические и топографические работы при строительстве и реконструкции зданий и сооружений</p>
+                                <p class="services__card-hidden-text">Инженерно-геологическая съемка в масштабах 1:500 – 1:25000</p>
+                                <p class="services__card-hidden-text">Проходка горных выработок с их опробованием, лабораторные исследования физико-механических свойств грунтов и химических свойств подземных вод</p>
+                                <p class="services__card-hidden-text">Изучение опасных геологических и инженерно-геологических процессов с разработкой рекомендаций по инженерной защите территории</p>
+                                <p class="services__card-hidden-text">Гидрологические исследования</p>
+                                <p class="services__card-hidden-text">Инженерно-геокриологические исследования</p>
                             </div>
                         </div>
                     </div>
                     <div class="item" id="ecology">
                         <div class="services__card">
-                            <img src="./images/services/service1.png">
+                            <img src="./images/services/ecology.jpg">
                             <div class="services__card-content">
                                 <h2 class="services__card-title">Экология</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
                                 <h2 class="services__card-hidden-title">Экология</h2>
@@ -270,10 +271,9 @@
                     </div>
                     <div class="item" id="additional_services">
                         <div class="services__card">
-                            <img src="./images/services/service1.png">
+                            <img src="./images/services/additional_services.jpg">
                             <div class="services__card-content">
                                 <h2 class="services__card-title">Дополнительные услуги</h2>
-                                <p class="services__card-paragraph">Текст текст текст текст текст текст текст текст</p>
                             </div>
                             <div class="services__card-hidden">
                                 <h2 class="services__card-hidden-title">Дополнительные услуги</h2>
@@ -290,7 +290,7 @@
         <section class="projects" id="projects">
             <div class="container">
                 <h1 class="projects__title">НАШИ ПРОЕКТЫ</h1>
-                <p class="projects__paragraph">Какой-то текст Какой-то текст</p>
+                <p class="projects__paragraph">Наши реализованные проекты и успешные решения</p>
             </div>
 
             <div class="owl-carousel-container">
@@ -346,24 +346,24 @@
         <section class="advantages" id="advantages">
             <div class="container">
                 <h1 class="advantages__title">ПОЧЕМУ МЫ?</h1>
-                <p class="advantages__paragraph">Какой-то текст какой-то текст </p>
+                <p class="advantages__paragraph">Без понимания задачи, мы будем не идти к цели, а бродить</p>
             
                 <div class="advantages__list">
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
-                        <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
+                        <img class="advantages__item-icon" src="./images/advantages/edit.svg" alt="">
+                        <p class="advantages__item-text">Совместно уточняем задачу, помогаем составить ТЗ</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
-                        <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
+                        <img class="advantages__item-icon" src="./images/advantages/checkmark.svg" alt="">
+                        <p class="advantages__item-text">Сопровождаем заказчика до получения положительного заключения экспертизы</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
-                        <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
+                        <img class="advantages__item-icon" src="./images/advantages/money.svg" alt="">
+                        <p class="advantages__item-text">Прозрачные и честные цены</p>
                     </div>
                     <div class="advantages__item">
-                        <img class="advantages__item-icon" src="./images/advantages/advantage-icon.svg" alt="">
-                        <p class="advantages__item-text">какой-то текст какой-то текст какой-то текст</p>
+                        <img class="advantages__item-icon" src="./images/advantages/monitor.svg" alt="">
+                        <p class="advantages__item-text">Мы работаем через ЭДО — это быстро, прозрачно и экономит время на бумажных документах</p>
                     </div>
                 </div>
             </div>
@@ -373,56 +373,77 @@
         <section class="achievements" id="achievements">
             <div class="container">
                 <h1 class="achievements__title">ДОСТИЖЕНИЯ И ПАТЕНТЫ</h1>
-                <p class="achievements__paragraph">Какой-то текст Какой-то текст</p>
+                <p class="achievements__paragraph">Наши достижения и запатентованные решения</p>
             </div>
 
             <div class="owl-carousel-container">
                 <div class="owl-carousel owl-theme slider-three">
-                    <div class="item">
+                    <div class="item" id="certificate_db">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/certificate_db.jpg" data-fancybox="gallery" data-caption="Свидетельство об официальной регистрации базы данных">
+                                <img src="./images/achievements/certificate_db.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" id="certificate_computer">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/certificate_computer.jpg" data-fancybox="gallery" data-caption="Свидетельство об официальной регистрации программы для ЭВМ">
+                                <img src="./images/achievements/certificate_computer.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" id="patent2556755">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/patent2556755.jpg" data-fancybox="gallery" data-caption="Патент на изобретение № 2556755. Способ возведения эталонного фундамента">
+                                <img src="./images/achievements/patent2556755.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" id="patent83778">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/patent83778.jpg" data-fancybox="gallery" data-caption="Патент на полезную модель № 83778. Установка для статического зондирования">
+                                <img src="./images/achievements/patent83778.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" id="patent71669">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/patent71669.jpg" data-fancybox="gallery" data-caption="Патент на полезную модель № 71669. Устройство для статического испытания свай">
+                                <img src="./images/achievements/patent71669.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" id="diploma2013">
                         <div class="achievements__card">
-                            <h2>ООО Запсибгазпром</h2>
-                            <a href="./images/achievements/achievement.jpg" data-fancybox="gallery" data-caption="ООО Запсибгазпром">
-                                <img src="./images/achievements/achievement.jpg" alt="">
+                            <a href="./images/achievements/diploma2013.jpg" data-fancybox="gallery" data-caption="Диплом победителя конкурса “На лучшее достижение в строительной отрасли Тюменской области за 2013 год”">
+                                <img src="./images/achievements/diploma2013.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item" id="diploma2014">
+                        <div class="achievements__card">
+                            <a href="./images/achievements/diploma2014.jpg" data-fancybox="gallery" data-caption="Диплом победителя конкурса “На лучшее достижение в строительной отрасли Тюменской области в 2014 году”">
+                                <img src="./images/achievements/diploma2014.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item" id="collection">
+                        <div class="achievements__card">
+                            <a href="./images/achievements/collection.jpg" data-fancybox="gallery" data-caption="Сборник программ для инженерно-геологических расчетов на микрокалькуляторах типа “Электроника БЗ-34">
+                                <img src="./images/achievements/collection.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item" id="conclusion2423">
+                        <div class="achievements__card">
+                            <a 
+                                href="./images/achievements/conclusion2423.pdf" 
+                                data-fancybox="gallery" 
+                                data-caption="Заключение № 2423 о состоянии измерений в лаборатории" 
+                                data-type="iframe" 
+                                data-width="1000" 
+                                data-height="1000">
+                                <img src="./images/achievements/conclusion2423.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -447,19 +468,26 @@
                             <?php if (isset($_SESSION['errors']['comment'])) { ?>
                                 <p class="validate_error"><?= $_SESSION['errors']['comment']; ?></p>
                             <?php } ?>
+                            <label class="request__form-checkbox">
+                                <input type="checkbox" name="agreement" value="1" <?= isset($_SESSION['old_data']['agreement']) ? 'checked' : '' ?>>
+                                Я согласен на <a href="personal_data" target="_blank">обработку персональных данных</a>
+                            </label>
+                            <?php if (isset($_SESSION['errors']['agreement'])) { ?>
+                                <p class="validate_error"><?= $_SESSION['errors']['agreement']; ?></p>
+                            <?php } ?>
                             <button class="request__form-button" type="submit">Оставить заявку</button>
                             </form>
                     </div>
                     <div class="request__images">
                         <div class="request__images-column">
-                            <img class="request__images-first" src="./images/request/req1.png" alt="">
-                            <img class="request__images-second" src="./images/request/req3.png" alt="">
+                            <img class="request__images-first" src="./images/request/req1.jpg" alt="">
+                            <img class="request__images-second" src="./images/request/req2.jpg" alt="">
                         </div>
-                        <img class="request__images-third" src="./images/request/req2.png" alt="">
+                        <img class="request__images-third" src="./images/request/req3.jpg" alt="">
                     </div>
 
                     <div class="request__images-adaptation">
-                        <img src="./images/about-us/about-us.png" alt="">
+                        <img src="./images/request/req1.jpg" alt="">
                     </div>
                 </div>
             </div>        
@@ -485,15 +513,22 @@
            
             <p class="footer__divider"></p>
 
-            <div class="footer__information">
-                <div class="footer__information-wrapper">
-                    <div class="footer__address">
-                        <p>город Тюмень, ул. Шмидта, д.48а</p>
+            <div class="footer__bottom">
+                <div class="footer__information">
+                    <div class="footer__information-wrapper">
+                        <div class="footer__address">
+                            <p>город Тюмень, ул. Шмидта, д.48а</p>
+                        </div>
+                        <div class="footer__contacts">
+                            <p>Телефон <a href="tel:+79526891244">+79526891244</a></p>
+                            <p><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
+                        </div>
                     </div>
-                    <div class="footer__contacts">
-                        <p>Телефон <a href="tel:+79526891244">+79526891244</a></p>
-                        <p><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
-                    </div>
+                </div>
+
+                <div class="footer__documents">
+                    <a href="privacy_policy">Политика конфиденциальности</a>
+                    <a href="personal_data">Обработка персональных данных</a>
                 </div>
             </div>
         </div>
@@ -529,6 +564,7 @@
     <script src="./js/windowsMobile.js"></script>
     <script src="./js/fancybox.js"></script>
     <script src="./js/scrollSections.js"></script>
+    <script src="./js/scrollAchievements.js"></script>
 
     <?php if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) { ?>
         <script>

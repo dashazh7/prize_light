@@ -66,7 +66,7 @@ $(document).ready(function(){
     $(".slider-three").owlCarousel({
       items: 3,
       loop: true,        
-      margin: 36,        
+      margin: 32,        
       nav: true,  
       navText: ['<img src="./images/nav-left.svg" alt="">', 
                 '<img src="./images/nav-right.svg" alt="">'],
@@ -82,9 +82,6 @@ $(document).ready(function(){
         },
         360: {
           items: 1,
-        },
-        1100: {
-          items: 2
         },
         1300: {
           items: 3

@@ -13,10 +13,10 @@
 }
   
 .services__paragraph {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 58px;
-  padding-bottom: 42px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 32px;
 }
 
 .services__card {
@@ -175,10 +175,10 @@
   }
     
   .services__paragraph {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 600;
-    line-height: 58px;
-    padding-bottom: 54px;
+    line-height: 64px;
+    padding-bottom: 48px;
   }
     
   .services__card {
@@ -285,6 +285,13 @@
 
 
 @media (max-width: 1100px) {
+  .services__paragraph {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 32px;
+  }
+
   .services__card {
     width: 390px;
     height: 470px;
@@ -331,7 +338,7 @@
 @media (max-width: 900px) {
   .services {
     padding: 64px 0px;
-}
+  }
 
   .services__title {
       font-size: 16px;
@@ -339,9 +346,10 @@
   }
 
   .services__paragraph {
-      font-size: 40px;
-      padding-bottom: 42px;
+      font-size: 36px;
+      padding-bottom: 24px;
   }
+
   .services .owl-carousel-container {
       max-width: 700px;
       padding: 0 19px;
@@ -381,7 +389,7 @@
   .services__paragraph {
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
   }
 
    .services__card {
@@ -428,6 +436,17 @@
 
 
 @media (max-width: 540px) {
+  .services__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .services__paragraph {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+
   .services .owl-carousel-container {
     max-width: 320px;
     padding: 0 19px;
@@ -445,7 +464,7 @@
   }
 
   .services__card-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
     

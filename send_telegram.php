@@ -13,14 +13,15 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $phone = htmlspecialchars($_POST['tel']);
         $comment = htmlspecialchars($_POST['comment']);
+         $agreement = $_POST['agreement'] ?? '';
 
-        list($errors, $comment) = FormValidator::validate($phone, $comment);
+        list($errors, $comment) = FormValidator::validate($phone, $comment, $agreement);
 
         if (!empty($errors)) {
             session_start();
             $_SESSION['errors'] = $errors;
             $_SESSION['old_data'] = ['tel' => $phone, 'comment' => $comment];
-            header("Location: index.php#request");
+            header("Location: /request");
             exit();
         }
 
@@ -30,7 +31,7 @@
         $telegram = new TelegramSender($token, $chat_id);
         $telegram->sendMessage($phone, $comment);
 
-        header("Location: index.php?success=1");
+        header("Location: /?success=1");
         exit();
     }
 ?>

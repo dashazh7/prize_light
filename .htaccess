@@ -3,5 +3,8 @@ RewriteBase /
 
 RewriteRule ^history$ history.php [L]
 RewriteRule ^material_base$ material_base.php [L]
+RewriteRule ^requisites$ requisites.php [L]
+RewriteRule ^privacy_policy$ privacy_policy.php [L]
+RewriteRule ^personal_data$ personal_data.php [L]
 
-RewriteRule ^(about|services|geodesy|geology|ecology|additional_services|projects|advantages|achievements|request)$ index.php [L]
+RewriteRule ^(about|services|geodesy|geology|ecology|additional_services|projects|advantages|achievements|request|certificate_db|certificate_computer|patent2556755|patent83778|patent71669|diploma2013|diploma2014|collection|conclusion2423)$ index.php [L]
