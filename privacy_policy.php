@@ -18,17 +18,17 @@
                 </div>
                 <div class="header__info-contact">
                     <a class="header__email">
-                        priz72@mail.com
+                        Pris72@yandex.ru
                         <img id="dropdownToggle" src="./images/header/expand_more-blue.svg" alt="">
                     </a>
 
                     <div class="header__window">
-                        <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
-                        <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                        <p>Директор<br><a href="tel:+79088739176" onclick="copyToClipboard(this)">+7 (908) 873-91-76</a></p>
+                        <p>Бухгалтер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
                         <a class="header__window-button" href="/request">Оставить заявку</a>
-                        <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
+                        <p>Email<br><a href="mailto:Pris72@yandex.ru" onclick="copyToClipboard(this)">Pris72@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
-                        <p>Режим работы<br><a href="">Пн-Пт: 9:00-18:00</a></p>
+                        <p>Режим работы<br><a href="">Пн-Пт: 8:00-18:00</a></p>
                     </div>
 
                     <a class="header__request" href="/request">
@@ -109,12 +109,12 @@
                         <img class="contact-icon" src="./images/call_adaptation.svg" alt="">
                         <!-- Раскрывающееся окно контактов -->
                         <div class="navigation__contact-window">
-                            <p>Директор<br><a href="tel:+79526891244" onclick="copyToClipboard(this)">+7 (952) 689-12-44</a></p>
-                            <p>Бухгалтер<br><a href="tel:+79526891244">+7 (952) 689-12-44</a></p>
+                            <p>Директор<br><a href="tel:+79088739176" onclick="copyToClipboard(this)">+7 (908) 873-91-76</a></p>
+                            <p>Бухгалтер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
                             <a class="navigation__contact-window--button" href="/request">Оставить заявку</a>
-                            <p>Email<br><a href="mailto:example@yandex.ru" onclick="copyToClipboard(this)">example@yandex.ru</a></p>
+                            <p>Email<br><a href="mailto:Pris72@yandex.ru" onclick="copyToClipboard(this)">Pris72@yandex.ru</a></p>
                             <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а</a></p>
-                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 9:00-18:00</a></p>
+                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 8:00-18:00</a></p>
                         </div>
                     </div>
                 </div>
@@ -197,9 +197,8 @@
                         <ul>
                             <li>ООО «Приз»</li>
                             <li>Адрес: 625007, Тюменская область, город Тюмень, ул. Шмидта, д.48а</li>
-                            <li>Телефон: []</li>
-                            <li>Эл. почта: []</li>
-                            <li>Ответственный за обработку персональных данных: [ФИО].</li>
+                            <li>Телефон: +7 (908) 873-91-76</li>
+                            <li>Эл. почта: Pris72@yandex.ru</li>
                         </ul>
                     </div>
                     
@@ -238,8 +237,8 @@
                             <p>город Тюмень, ул. Шмидта, д.48а</p>
                         </div>
                         <div class="footer__contacts">
-                            <p>Телефон <a href="tel:+79526891244">+79526891244</a></p>
-                            <p><a href="mailto:example@yandex.ru">example@yandex.ru</a></p>
+                            <p>Телефон <a href="tel:+79088739176" onclick="copyToClipboard(this)">+79088739176</a></p>
+                            <p><a href="mailto:Pris72@yandex.ru" onclick="copyToClipboard(this)">Pris72@yandex.ru</a></p>
                         </div>
                     </div>
                 </div>
