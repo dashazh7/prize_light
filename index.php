@@ -82,11 +82,11 @@
 
                     <div class="header__window">
                         <p>Директор<br><a href="tel:+79088739176" onclick="copyToClipboard(this)">+7 (908) 873-91-76</a></p>
-                        <p>Бухгалтер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
+                        <p>Главный инженер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
                         <a class="header__window-button" href="/request" onclick="scrollToSection('request'); return false;">Оставить заявку</a>
                         <p>Email<br><a href="mailto:Pris72@yandex.ru" onclick="copyToClipboard(this)">Pris72@yandex.ru</a></p>
                         <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а </a></p>
-                        <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 8:00-18:00</a></p>
+                        <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 8:00-17:00</a></p>
                     </div>
 
                     <a class="header__request" href="/request" onclick="scrollToSection('request'); return false;">
@@ -169,11 +169,11 @@
                         <!-- Раскрывающееся окно контактов -->
                         <div class="navigation__contact-window">
                             <p>Директор<br><a href="tel:+79088739176" onclick="copyToClipboard(this)">+7 (908) 873-91-76</a></p>
-                            <p>Бухгалтер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
+                            <p>Главный инженер<br><a href="tel:+79088739179" onclick="copyToClipboard(this)">+7 (908) 873-91-79</a></p>
                             <a class="navigation__contact-window--button" href="#request">Оставить заявку</a>
                             <p>Email<br><a href="mailto:Pris72@yandex.ru" onclick="copyToClipboard(this)">Pris72@yandex.ru</a></p>
                             <p>Адрес<br><a href="" onclick="copyToClipboard(this)">г.Тюмень, ул. Шмидта, д.48а</a></p>
-                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 8:00-18:00</a></p>
+                            <p>Режим работы<br><a href="" class="no-cursor">Пн-Пт: 8:00-17:00</a></p>
                         </div>
                     </div>
                 </div>
